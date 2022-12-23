@@ -1,0 +1,699 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ @font-face {
+    font-family: "sricons";
+    src: url("../../public/webfonts/sricons/font/sricons.eot?1b5ca7");
+    src: url("../../public/webfonts/sricons/font/sricons.eot?1b5ca7#iefix")
+        format("embedded-opentype"),
+      url("../../public/webfonts/sricons/font/sricons.woff2?1b5ca7") format("woff2"),
+      url("../../public/webfonts/sricons/font/sricons.ttf?1b5ca7") format("truetype"),
+      url("../../public/webfonts/sricons/font/sricons.woff?1b5ca7") format("woff"),
+      url("../../public/webfonts/sricons/font/sricons.svg?1b5ca7#sricons") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="sricon-"],
+  [class*=" sricon-"],
+  #menu-posts-album .dashicons-before.dashicons-format-audio:before, #menu-posts-sr_playlist .dashicons-before:before{
+    font-family: "sricons" !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    speak: none;
+  }
+  .srpodcast_url_link label:before{
+      margin-right:6px;
+  }
+
+
+.sricon-amazonmusic:before { content: '\e800'; } /* '' */
+.sricon-apple-podcasts:before { content: '\e801'; } /* '' */
+.sricon-castbox:before { content: '\e802'; } /* '' */
+.sricon-castro:before { content: '\e803'; } /* '' */
+.sricon-deezer:before { content: '\e804'; } /* '' */
+.sricon-google-podcast:before { content: '\e805'; } /* '' */
+.sricon-iheartradio:before { content: '\e806'; } /* '' */
+.sricon-overcast:before { content: '\e807'; } /* '' */
+.sricon-pandora:before { content: '\e808'; } /* '' */
+.sricon-playerfm:before { content: '\e809'; } /* '' */
+.sricon-pocketcasts:before { content: '\e80a'; } /* '' */
+.sricon-podcastaddict:before { content: '\e80b'; } /* '' */
+.sricon-podcastindex:before { content: '\e80c'; } /* '' */
+.sricon-podchaser:before { content: '\e80d'; } /* '' */
+.sricon-rss-feed:before { content: '\e80e'; } /* '' */
+.sricon-spotify:before { content: '\e80f'; } /* '' */
+.sricon-stitcher:before { content: '\e810'; } /* '' */
+.sricon-tunein:before { content: '\e811'; } /* '' */
+.sricon-Sonaar-symbol:before { content: '\e812'; } /* '' */
+.sricon-info:before { content: '\e813'; } /* '' */
+.sricon-close-circle:before { content: '\e828'; } /* '' */
+.sricon-svg-video:before { content: '\e816'; } /* '' */
+.sricon-cash2:before { content: '\e818'; } /* '' */
+.sricon-layers:before { content: '\e81b'; } /* '' */
+.sricon-radio2:before { content: '\e820'; } /* '' */
+.sricon-micro:before { content: '\e821'; } /* '' */
+.sricon-cash:before { content: '\e822'; } /* '' */
+.sricon-dj:before { content: '\e823'; } /* '' */
+.sricon-musiccreation:before { content: '\e825'; } /* '' */
+.sricon-nocash:before { content: '\e827'; } /* '' */
+.sricon-download:before { content: '\e81f'; } /* '' */
+.sricon-15s:before { content: '\e814'; } /* '' */
+.sricon-30s:before { content: '\e815'; } /* '' */
+.sricon-filedownload:before { content: '\e817'; } /* '' */
+.sricon-audiostream:before { content: '\e824'; } /* '' */
+.sricon-play:before { content: '\e81a'; } /* '' */
+.sricon-pause:before { content: '\e81c'; } /* '' */
+.sricon-spinner:before { content: '\e97b'; } /* '' */
+  
+  .sricons-logo:before,
+  #menu-posts-album .dashicons-before.dashicons-format-audio:before, #menu-posts-sr_playlist .dashicons-before:before {
+    content: "\e812" !important;
+  }
+
+ @media (min-width: 576px){
+    .card-deck {
+        padding-left: 40px;
+        padding-right: 60px;
+      }
+}
+
+/* Tooltip container */
+.cmb2-wrap .srmp3_tooltip {
+    top:3px;
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+.srmp3_tooltip img {
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom:10px;
+}
+.srmp3_tooltip_title {
+    display: flex;
+    align-items: baseline;
+    justify-content:space-between;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom:10px;
+}
+.srmp3_tooltip_desc {
+    font-size: 11px;
+}
+.srmp3_tooltiptext .sricon-Sonaar-symbol{
+margin-right:4px;
+}
+.srmp3_pro_badge {
+    margin-left: 4px;
+    font-size: 8px;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: #7400df;
+    padding: 5px 10px;
+    border-radius: 40px;
+}
+  /* Tooltip text */
+.cmb2-wrap .srmp3_tooltip .srmp3_tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #2b3337;
+    color: #fff;
+    text-align: left;
+    padding: 20px;
+    width: 375px;
+    border-radius: 6px;
+    box-shadow: 0px 5px 5px #00000021;
+    height: fit-content;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    top: -35px;
+    left: 50%;
+    margin-left: -70px;
+    opacity: 0;
+    transition: all 0.3s;
+}
+  /* Tooltip arrow */
+.cmb2-wrap .srmp3_tooltip .srmp3_tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.cmb2-wrap .srmp3_tooltip .srmp3_tooltiptext.srmp3_tooltip-right::after {
+    left: -8px;
+    content: "";
+    position: absolute;
+    top: 20px;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 7px;
+    border-style: solid;
+    border-color: transparent #2b3337 transparent transparent;
+}
+
+
+
+  /* Show the tooltip text when you mouse over the tooltip container */
+.cmb2-wrap .srmp3_tooltip:hover .srmp3_tooltiptext {
+    visibility: visible;
+    opacity: 1;
+    top:-12px;
+    
+}
+.cmb2-wrap .srmp3_tooltip-right {
+    top: 0px;
+    left: 100px!important;
+}
+#alb_tracklist_repeat .cmb-row .cmbhandle{
+    color:#fff;
+}
+.cmb2-options-page {
+    max-width: 100%!important;
+}
+.postbox .inside .cmb2-id-usageterms-custom-options-group h2{
+    font-weight:600;
+}
+#poststuff .cmb2-id-usageterms-custom-options-group h2{
+    padding:0px;
+}
+.srpodcast_url_group .cmbhandle, .srpodcast_url_group button.dashicons-before.dashicons-no-alt.cmb-remove-group-row, .srpodcast_url_group h3.cmb-group-title.cmbhandle-title,         .cmb2-id-usageterms-custom-options-group .cmbhandle, .cmb2-id-usageterms-custom-options-group button.dashicons-before.dashicons-no-alt.cmb-remove-group-row, .cmb2-id-usageterms-custom-options-group h3.cmb-group-title.cmbhandle-title {
+    display: none;
+}
+
+.cmb2-wrap.srmp3_podcast_rss .cmb-type-title, .srpodcast_url_group{
+    margin-top: 1em!important;
+    padding: .6em 1em!important;
+}
+.cmb-repeatable-grouping .store-name, .cmb-repeatable-grouping .show-label, .cmb-repeatable-grouping .store-name, .cmb-repeatable-grouping .srpodcast_url_icon, .cmb-repeatable-grouping .srpodcast_url_link{
+    display:inline-block;
+}
+.srpodcast_url_group.cmb-type-group .cmb-repeat-group-field, .cmb2-id-usageterms-custom-options-group.cmb-type-group .cmb-repeat-group-field{
+    padding:0px;
+}
+.srpodcast_url_group .cmb-repeatable-group .cmb-group-title, .cmb2-id-usageterms-custom-options-group .cmb-repeatable-group .cmb-group-title {
+    color:initial!important;
+    background-color: #e7e7e7!important;
+    font-size: 14px!important;
+}
+.srpodcast_url_group .cmb-repeatable-grouping .cmb-th, .cmb-repeatable-group .cmb-group-title .cmb-repeatable-grouping .cmb-th {
+    width: 180px!important;
+}
+.srpodcast_url_group .cmb-td, .cmb2-id-usageterms-custom-options-group .cmb-td {
+    float: none!important;
+}
+.srpodcast_url_group button.cmb-add-group-row.button-secondary, .srpodcast_url_group button.cmb-add-group-row.button-secondary:hover, .cmb2-id-usageterms-custom-options-group button.cmb-add-group-row.button-secondary, .cmb2-id-usageterms-custom-options-group button.cmb-add-group-row.button-secondary:hover{
+    padding: 0px 12px!important;
+    height: initial;
+} 
+.srpodcast_url_group.cmb-type-group .cmb-row:not(:last-of-type), .cmb2-id-usageterms-custom-options-group.cmb-type-group .cmb-row:not(:last-of-type){
+    border-bottom:none;
+}
+.srpodcast_url_group.cmb-type-group .cmb-remove-field-row, .cmb2-id-usageterms-custom-options-group.cmb-type-group .cmb-remove-field-row{
+    padding:0px;
+}
+.edit-tags-php .cmb2-wrap .cmb2-metabox-title {
+    font-size:inherit;
+}
+.edit-tags-php .cmb2-options-page .cmb-repeatable-group .cmb-group-name, .term-php .cmb2-options-page .cmb-repeatable-group .cmb-group-name{ 
+    font-size:14px;
+}
+.edit-tags-php .cmb2-wrap .cmb2-id-srpodcast-importer-cronjob, .edit-tags-php .cmb2-wrap .cmb2-id-srpodcast-rss-feed-settings .cmb2-metabox-description{
+    display:none;
+}
+.edit-tags-php  #addtag .cmb-th {
+        /* display: inline-block; */
+        /* width: 100px!important; */
+        float: left;
+        width: auto;
+        padding: 0px 0 0;
+    
+}
+
+.postbox.cmb-row.cmb-repeatable-grouping {
+    border-radius: 6px!important;
+    background-color: #f7f7f7;
+}
+#sonaar_audioplayer-form p.cmb2-metabox-description {
+    font-style: initial;
+}
+.sonaar-music__pro-badge {
+    position: relative;
+    padding-right: 33px;
+}
+
+.sonaar-music__pro-badge .components-base-control__field, .sonaar-music__pro-badge .components-base-control__label div{
+    opacity: 0.5;
+}
+.sonaar-music__pro-badge:after{
+    content: "pro";
+    font-size: 8px;
+    text-transform: uppercase;
+    background: var( --wp-admin-theme-color);
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0 4px;
+    line-height: 1;
+    color: #fff;
+    padding: 3px 6px;
+    border-radius: 9999px;
+    
+}
+.sonaar-music__pro-badge.components-panel__body:not(.is-opened) {
+    padding-right: 0px;
+}
+.sonaar-music__pro-badge.components-panel__body:after {
+    transform: unset;
+    right: 40px;
+    top: 18px;
+}
+.cmb-repeatable-group .cmb-group-title {
+    color: #fff!important;
+    background-color: #000000!important;
+    font-size: 18px!important;
+}
+.cmb-row .sr-select {
+    margin-top: 0px;
+}
+.cmb-row .store-name, .cmb-row .store-link, .cmb-row .store-target, .cmb-row .srpodcast_url_link{
+    margin-right: 10px;
+}
+#sonaar_audioplayer-form #artwork-status {
+    display: none!important;
+}
+.cmb-row:not(.srpodcast_url_group) .srpodcast_url_group button.cmb-add-group-row.button-secondary:hover,.cmb-row:not(.srpodcast_url_group) .srpodcast_url_group button.cmb-add-group-row.button-secondary:focus {
+    background-color: #a500ce;
+    color: #fff;
+    padding: 10px 25px 10px 25px!important;
+    font-size: 14px;
+    height: 49px;
+    text-transform: uppercase;
+}
+.cmb-row:not(.srpodcast_url_group) .srpodcast_url_group button.cmb-add-group-row.button-secondary:hover{
+    background-color: #800082!important;  
+}
+
+button.cmb-add-row-button.button-secondary, button.cmb-add-row-button.button-secondary:hover, button.cmb-add-row-button.button-secondary:focus {
+    background-color: #62007b;
+    color: #fff;
+}
+button.cmb-add-row-button.button-secondary:hover{
+    background-color: #a500ce!important;  
+}
+.option-iron_music_player h2{
+    display:none;
+}
+.sr_playlist_page_sonaar_music_promo .card-deck, .album_page_sonaar_music_promo .card-deck  {
+    margin: 0 auto;
+    max-width: 768px;
+}
+.sr_playlist_page_sonaar_music_promo #sonaar_music .card, .album_page_sonaar_music_promo #sonaar_music .card {
+    background-color: #23282d!important;
+}
+.sr_playlist_page_sonaar_music_promo #sonaar_music .btn-primary, .album_page_sonaar_music_promo #sonaar_music .btn-primary {
+    background-color: #00c78f;
+    border-color: #009269;
+}
+.sr_playlist_page_sonaar_music_promo #sonaar_music .btn-lg, .album_page_sonaar_music_promo #sonaar_music .btn-lg {
+    padding: 1rem 1.5rem;
+}
+.sr_playlist_page_sonaar_music_promo #sonaar_music .card-title, .album_page_sonaar_music_promo #sonaar_music .card-title {
+    font-size:36px;
+    margin-top: 30px;
+}
+
+#sonaar_music .sr_it_ctabuttons{
+    margin-top:55px;
+    margin-bottom:40px;
+}
+ /**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ @font-face {
+    font-family: 'CircularStd-Book';
+    src: url('../fonts/CircularStd-Book.eot'); 
+    src: url('../fonts/CircularStd-Book.eot?#iefix') format('embedded-opentype'), 
+    url('../fonts/CircularStd-Book.woff2') format('woff2'), 
+    url('../fonts/CircularStd-Book.woff') format('woff'), 
+    url('../fonts/CircularStd-Book.ttf') format('truetype'),
+    url('../fonts/CircularStd-Book.svg#svgFontName') format('svg');
+  }
+@font-face{
+  font-family: 'CircularStd-Medium';
+    src: url('../fonts/CircularStd-Medium.eot');
+    src: url('../fonts/CircularStd-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/CircularStd-Medium.woff2') format('woff2'),
+    url('../fonts/CircularStd-Medium.woff') format('woff'),
+    url('../fonts/CircularStd-Medium.ttf') format('truetype'),
+    url('../fonts/CircularStd-Medium.svg#svgFontName') format('svg');
+}
+.sr_playlist_page_sonaar_music_promo #sonaar_music .sr_it_listgroup, .album_page_sonaar_music_promo #sonaar_music .sr_it_listgroup{
+    max-width:100%;
+}
+.sr_playlist_page_sonaar_music_promo #sonaar_music p, .album_page_sonaar_music_promo #sonaar_music p{
+    max-width: 760px;
+    display: inline-block;
+    font-size:21px;
+}
+.sr_playlist_page_sonaar_music_promo #sonaar_music ul, .album_page_sonaar_music_promo #sonaar_music ul {
+    display: inline-block;
+    max-width: 550px;
+    text-align:left;
+    padding: 30px;
+}
+.sr_playlist_page_sonaar_music_promo #sonaar_music li, .album_page_sonaar_music_promo #sonaar_music li {
+    margin-bottom: 14px;
+    font-size:18px;
+    display: block;
+}
+
+.sr_playlist_page_sonaar_music_promo #sonaar_music li:before, .album_page_sonaar_music_promo #sonaar_music li:before {
+    content: ">";
+    font-size: 9px;
+    position: relative;
+    margin-left: -18px;
+    margin-right: 11px;
+    top: -2px;
+    color: #00c78f;
+}
+
+.jumbotron {
+    font-family:"CircularStd-Book";
+    background: url("../img/sonaar-music-banner-blue.jpg") no-repeat left top; 
+    background-size: cover!important;
+}
+.sr_playlist_page_sonaar_music_promo #sonaar_music .card-deck, .album_page_sonaar_music_promo #sonaar_music .card-deck{
+    font-family:"CircularStd-Book"!important;
+}
+.sr_playlist_page_sonaar_music_promo #sonaar_music .jumbotron, .album_page_sonaar_music_promo #sonaar_music .jumbotron{
+    font-family:"CircularStd-Book";
+    background: url("../img/sonaar-music-banner-blue.jpg") no-repeat left top; 
+    background-size: cover!important;
+}
+.jumbotron h1{
+    color:#fff;
+    font-family:"CircularStd-Medium";
+    font-size:75px;
+    line-height: 69px;
+
+}
+.jumbotron .tagline {
+    margin-top:40px;
+    font-size: 1.4rem;
+}
+#sonaar_music .headertxt {
+    max-width: 850px;
+    display: inline-block;
+}
+#sonaar_music{
+  margin:0px -30px 0;
+}
+#sonaar_music .logo {
+    text-align: left;
+}
+#sonaar_music .jumbotron{
+   border-radius: 0;
+}
+#sonaar_music .card{
+  padding: 0;
+  max-width: 100%;
+}
+
+#sonaar_music .breadcrumb{
+  margin-left: 0;
+}
+.wp-list-table #alb_stats{
+  width: 24px;
+}
+
+
+ .wp-list-table #alb_icon{
+   width: 64px;
+ }
+ .wp-list-table #alb_tracklist,
+ .wp-list-table #alb_store_list{
+   width: 70px;
+ }
+
+ .wp-list-table #alb_shortcode{
+    width: 24px;
+  }
+ #sonaar_promo .cmb-row.cmb-type-calltoaction.cmb2-id-calltoaction {
+    padding: 0px!important;
+    margin: 0px!important;
+}
+
+#sonaar_promo .inside {
+    margin: 0px;
+    padding:0px;
+}
+#sonaar_promo button {
+    display: none;
+}
+#sonaar_promo h2.hndle.ui-sortable-handle {
+    font-size: inherit;
+    padding: 15px!important;
+}
+#sonaar-music-footer{
+    clear: both;
+    margin-left: 160px;
+    padding: 10px 20px;
+    color: #555d66;
+    position: absolute;
+    bottom: 30px
+}
+#sonaar-music-footer p{
+    line-height: 1.25;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+/* Sonaar Music Rating CSS */
+.sonaar-music-review-box p a {
+	display: inline-block;
+	float: right;
+	text-decoration: none;
+	color: #999999;
+	position: absolute;
+	right: 12px;
+	top: 12px;
+}
+.sonaar-music-review-box p a:hover, .sonaar-music-review-box p a:focus {
+	color: #ffffff;
+}
+.sonaar-music-review-box .button span {
+	display: inline-block;
+	line-height: 27px;
+	font-size: 16px;
+}
+
+.sonaar-music-review-box-title {
+	padding: 0 0 10px 0;
+	font-weight: bold;
+}
+.sonaar-music-review-box-options a {
+	display: block;
+	margin: 5px 0 5px 0;
+	color: #333;
+	text-decoration: none;
+}
+.sonaar-music-review-box-options a.dismiss {
+	color: #999;
+}
+.sonaar-music-review-box-options a:hover {
+	color: #0073aa;
+}
+
+button.sonaar-music-close-review-box-popup {
+	position: absolute;
+	top: 5px;
+	right: 0;
+	border: none;
+	background: transparent;
+	cursor: pointer;
+}
+a.button.button-primary.sonaar-music-review-box-btn {
+	font-size: 14px;
+	background: #F51366;
+	color: #fff;
+	border: solid 1px #F51366;
+	border-radius: 3px;
+	line-height: 24px;
+	-webkit-box-shadow: 0 3px 5px -3px #333333;
+	-moz-box-shadow: 0 3px 5px -3px #333333;
+	box-shadow: 0 3px 5px -3px #333333;
+	text-shadow: none;
+}
+.sonaar-music-review-box {
+    color: #e0e0e0;
+    background-color: #23282d;
+	position: relative;
+	padding: 1px 30px 1px 12px;
+}
+.sonaar-music-review-box div{
+	margin: 0 0 15px 0;
+}
+.sonaar-music-review-box h3{
+    margin-top: 20px;
+    margin-bottom: 12px;
+    color: #e0e0e0;
+}
+.sonaar-music-review-box p {
+    display: inline-block;
+    line-height: 22px;
+    vertical-align: middle;
+    margin-bottom: 12px;
+    padding: 0 10px 0 0;
+}
+.sr-notice-logo img{
+    width:45px;
+}
+.sr-notice-logo {
+    vertical-align: top;
+    display: inline-block;
+    padding-top: 20px;
+    padding-right:20px;
+}
+.sr-notice-content {
+    display: inline-block;
+    width: 90%;
+}
+.sr-notice-cta {
+
+}
+.sr-stream-url-field input.cmb2-text-medium{
+    width: 100%!important;
+    max-width: 580px!important;
+}
+.sr-stream-title-field .regular-text, .sr-stream-album-field .regular-text{
+    width: 100%!important;
+    max-width: 480px!important;
+}
+
+/* MP3 Music player page option */
+#sonaar_footer_player_meta{
+    margin: 10px 0;
+  }
+  #meta-footer-player .hndle{
+    cursor: pointer;
+  }
+  .meta-box-sortables #meta-footer-player select {
+    width: 100%;
+    box-sizing: border-box;
+    display: inline-block;
+  }
+  #meta-footer-player label{
+    margin-bottom: 4px;
+    display: inline-block;
+  }
+  .edit-post-meta-boxes-area #poststuff #meta-footer-player h2.hndle{
+    color: #191e23;
+    font-size: 13px;
+    font-weight: 600;
+  }
+
+#promo-music-player-sticky-title {
+    display: inline-block;
+}
+.srmp3-pro-feature:not(.prolabel--nohide) input, .srmp3-pro-feature:not(.prolabel--nohide) span, .srmp3-pro-feature:not(.prolabel--nohide) label, .srmp3-pro-feature:not(.prolabel--nohide) select, .srmp3-pro-feature:not(.prolabel--nohide) .cmb2-metabox-description{
+    pointer-events: none;
+    opacity:0.6;
+}
+
+.srmp3-pro-feature .prolabel a{
+    text-decoration:none;
+    color:#fff
+}
+.srmp3-pro-feature.prolabel--nomargin .prolabel {
+    margin:auto;
+}
+.srmp3-pro-feature .prolabel {
+    opacity: 1;
+    pointer-events: all;
+    cursor: pointer;
+    background-color: #5a00ad;
+    width: fit-content;
+    margin: 0!important;
+    display: block;
+    margin-left: 10px;
+    padding: 4px 7px;
+    margin-bottom: 5px!important;
+    text-transform: uppercase;
+    font-size: 9px;
+    border-radius: 4px;
+    color: #fff;
+}
+.sonaar-block-label > div {
+    font-weight: 600;
+    margin-bottom: 9px;
+}
+
+.gb_sr_gopro {
+    text-align: center;
+    margin: 20px 0 15px;
+}
+.gb_sr_gopro .elementor-nerd-box-icon {
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+.gb_sr_gopro .elementor-nerd-box-title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.gb_sr_gopro .elementor-nerd-box-message {
+    margin-bottom: 15px;
+}
+.gb_sr_gopro ul {
+    text-align: left;
+    margin: 0 15px 20px;
+}
+.gb_sr_gopro ul li {
+    margin-bottom: 10px;
+}
+.gb_sr_gopro ul li * {
+    display: inline;
+}
+.gb_sr_gopro ul li i {
+    margin-right: 7px;
+}
+
+/*-----GUTENBER EDITOR--------*/
+/*Select Playlist option*/
+.wp-core-ui select[multiple][id^="playlist-list-id"], .wp-core-ui select[multiple][id^="playlist-list-cat"]{
+    height: 130px;
+}
+.wp-core-ui select[multiple][id^="playlist-list-id"] + .components-input-control__suffix, .wp-core-ui select[multiple][id^="playlist-list-cat"] + .components-input-control__suffix {
+    display: none;
+}
+.edit-post-visual-editor .sonaar_audioplayer_block_cover i {
+    font-style: normal;
+}
+
+/* CMB2 image-select ------------- */
+.cmb-row.cmb-type-image-select .cmb2-image-select-list{margin: 0 !important; }
+.cmb-row.cmb-type-image-select .cmb2-image-select-list .cmb2-image-select input[type="radio"] { display: none; }
+.cmb-row.cmb-type-image-select .cmb2-image-select-list .cmb2-image-select{ display: inline-block; margin: 0 10px 3px; min-width: 80px; padding: 2px 15px 2px 0; text-align: center; }
+.cmb-row.cmb-type-image-select .cmb2-image-select-list .cmb2-image-select:first-child{margin-left:0} 
+.cmb-row.cmb-type-image-select .cmb2-image-select-list .cmb2-image-select img { border: 4px solid #ffffff; }
+.cmb-row.cmb-type-image-select .cmb2-image-select-list .cmb2-image-select.cmb2-image-select-selected img { border-color: #5a00ad; }
+
+body.admin-color-fresh #adminmenu #menu-posts-sr_playlist a[href="?page=go_pro"], body.admin-color-fresh #adminmenu #menu-posts-albums a[href="?page=go_pro"]{
+    color: #00c78f;
+}

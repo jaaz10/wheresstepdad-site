@@ -1,0 +1,5502 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: MP3 Audio Player by Sonaar\n"
+"POT-Creation-Date: 2022-06-13 12:17-0400\n"
+"PO-Revision-Date: 2022-06-13 12:17-0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: sonaar-music.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/class-sonaar-music-admin.php:156
+msgid "Premium Feature | Upgrade to Pro"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:247
+#: admin/class-sonaar-music-admin.php:2681
+msgid "Settings"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:252
+msgid "General"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:270
+msgid "Audio Player General Settings"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:275
+msgid "Website Type"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:276
+msgid "Music or Podcast Website?"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:280
+msgid "What is your style?"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:281
+msgid ""
+"Either you run a Music, Radio or Podcast website, we've got you covered. "
+"This affect how we assign labels & strings in the admin dashboard."
+"<br><br>Turning Podcast Mode On will unlock dedicated podcast features such "
+"as an RSS Importer, Subscribe Buttons, Podcast Show taxonomy and other neat "
+"features."
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:287
+msgid "Music oriented (For Musicians, Artists, Labels, Producers, etc)"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:288
+msgid "Podcast oriented (For Podcast, Audiobook, Meditation, etc) "
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:293
+msgid "Player Layout"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:296
+msgid "Default Player Layout"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:297
+#, php-format
+msgid ""
+"We have designed 2 different audio player layouts. One has a floated style "
+"with tracklist and the cover image side-by-side while the other has a boxed "
+"layout with full-width playlist below the player.<br><br> The player layout "
+"is used in the playlist/episode single page. <br><br>You can customize the "
+"default player look and feel in Settings > Widget tab.<br><br>You can also "
+"customize each player's instance with shortcode attributes, Elementor Widget "
+"or Gutenberg block. %1$sLearn More%2$s"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:314
+msgid "Where are you using the player?"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:315
+msgid ""
+"We will display our custom fields in the selected post types so you can add "
+"audio tracks by editing their single post."
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:326
+#: admin/class-sonaar-music-admin.php:343
+msgid "Waveform Type"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:332
+#: admin/class-sonaar-music-admin.php:349
+msgid ""
+"Choose between 3 different waveforms & progress bars.<br><br>Synthetic "
+"Waveforms load lightning fast and is used for most common type of websites."
+"<br><br>Dynamic Waveforms is powered by Wavesurfer.js. To generate the "
+"waveforms, we need to preload your MP3 file. We display the waveforms once "
+"the MP3 has been fully preloaded so its recommend to use only small audio "
+"files. It does not work with streaming feed.<br><br>Simple Bar do not "
+"generate waveforms but a simple neat & clean progress bar."
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:362
+msgid "Soundwave Max Height"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:366
+msgid "Default (70px)"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:367
+msgid "Tiny (20px)"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:368
+msgid "Small (40px)"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:369
+msgid "Huge (120px)"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:378
+msgid "Progress Bar Height (px)"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:390
+msgid "Soundwave Bar Width (px)"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:401
+msgid "Soundwave Bar Gap (px)"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:418
+msgid ""
+"When enabled, we display the artist name beside each of your track. E.g. < "
+"Track Title \"by\" Artist Name >. You can change the separator text label as "
+"well."
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:423
+msgid "Load Sonaar Scripts on Every Pages"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:432
+#: includes/class-sonaar-music-widget.php:468
+#: includes/class-sonaar-music-widget.php:1611
+msgid "by"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:445
+msgid "Widget Settings"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:446
+msgid "Widget Player Settings"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:451
+msgid "Widget Player"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:464
+msgid "Default Widget Player Settings"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:469
+#: admin/class-sonaar-music-admin.php:969
+msgid "Display Skip 15/30 Seconds button"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:476
+#: admin/class-sonaar-music-admin.php:976
+#: admin/class-sonaar-music-admin.php:1215
+msgid ""
+"A listener just missed something in your track? Add a 15 seconds backward "
+"button so he can quickly catch-up. Same thing if he want to quickly skip a "
+"segment or two."
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:482
+#: admin/class-sonaar-music-admin.php:983
+msgid "Display Playback Speed Button"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:488
+#: admin/class-sonaar-music-admin.php:989
+#: admin/class-sonaar-music-admin.php:1227
+msgid "Default Playback Speed"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:489
+#: admin/class-sonaar-music-admin.php:990
+#: admin/class-sonaar-music-admin.php:1228
+msgid ""
+"A speed rate button gives your user the ability to change the playback speed "
+"from 0.5x, 1x, 1.2x, 1.5x and 2x"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:495
+#: admin/class-sonaar-music-admin.php:955
+#: includes/widgets/sr-music-player.php:900
+msgid "Display Volume Control"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:501
+#: admin/class-sonaar-music-admin.php:961
+msgid "Default Volume Controller Button"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:502
+#: admin/class-sonaar-music-admin.php:962
+msgid ""
+"We will add a cool volume control under your player so the user may adjust "
+"the volume level. The volume level is retained in its browser session."
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:508
+#: admin/class-sonaar-music-admin.php:997
+msgid "Display Shuffle Button"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:514
+#: admin/class-sonaar-music-admin.php:1003
+msgid "Default Shuffle Button"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:515
+#: admin/class-sonaar-music-admin.php:1004
+#: admin/class-sonaar-music-admin.php:1267
+msgid "Allow the ability to shuffle the tracks randomly within the Playlist."
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:521
+msgid "Display Date in the Player"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:527
+msgid "Display Published Date in Player"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:528
+msgid ""
+"We will display the published date of the current Playlist/Episode that is "
+"being played within the player. You can change the published date by editing "
+"the post's date."
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:534
+msgid "Display Date in the Tracklist"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:540
+msgid "Display Published Dates in Tracklist"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:541
+#: admin/class-sonaar-music-admin.php:1018
+msgid ""
+"We will display the published date for each track in the playlist. Useful if "
+"you run a podcast and you want to display dates for each of your episode in "
+"the tracklist."
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:547
+msgid "Display Total Number of Tracks"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:554
+msgid ""
+"Sometimes its useful to let your visitor knows how many tracks contains the "
+"playlist. We will show this label in the player. Below, you can change and "
+"translate the track label for something that better suits your needs such as "
+"10 Songs, Tracks, Episodes, Sermons, etc."
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:560
+msgid "Display Total Playlist Time Duration"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:566
+msgid "Display Total Playlist Duration"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:567
+msgid ""
+"As the name suggest, we will calculate the sum of each track's duration and "
+"will display the total amount of the duration in the player. You can change "
+"and translate the label of hours and minutes."
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:573
+msgid "Enable Track Redirection to the Single Post"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:579
+msgid "Link to Single Post"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:580
+msgid ""
+"When enabled, track titles in your playlist will link to their single posts. "
+"This feature is mostly used for podcasters."
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:586
+#: admin/class-sonaar-music-admin.php:1025
+msgid "Display Text label for Call-to-Action Icon"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:592
+#: admin/class-sonaar-music-admin.php:1031
+msgid "Text Label for Call-to-Actions"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:593
+#: admin/class-sonaar-music-admin.php:1032
+msgid ""
+"When you add a call to action button for your tracks, we only show the icon "
+"by default to maximize the space for the track title. By enabling this "
+"option, we will also show its label name."
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:599
+#: admin/class-sonaar-music-admin.php:605
+msgid "Hide Track Number"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:606
+msgid "Remove the track number in the tracklist."
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:612
+msgid "Display Text Label for the Play Button"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:618
+msgid "Text Label instead of Play Icon"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:619
+msgid ""
+"Only used for the boxed layout player. We will replace the big Play/Pause "
+"Icon in the player by a text button. You can translate the Play & Pause "
+"strings by anything you like below."
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:625
+msgid "Play Button Label"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:628
+#: admin/class-sonaar-music-admin.php:629
+msgid "Play"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:632
+msgid "Pause Button Label"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:635
+#: admin/class-sonaar-music-admin.php:636
+msgid "Pause"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:639
+msgid "Total Number of Tracks Label"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:642
+#: admin/class-sonaar-music-admin.php:643
+msgid "Tracks"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:644
+msgid ""
+"Label displayed after the total number of tracks. Eg: 6 Tracks, 6 Episodes, "
+"6 Songs, 6 Sermons"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:647
+msgid "Hours Total Duration Label"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:650
+#: admin/class-sonaar-music-admin.php:651
+msgid "hr."
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:654
+msgid "Minutes Total Duration Label"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:657
+#: admin/class-sonaar-music-admin.php:658
+msgid "min."
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:661
+#: admin/class-sonaar-music-admin.php:668
+msgid "Date Format"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:665
+msgid "F j, Y"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:669
+#, php-format
+msgid ""
+"Here are some examples of date format with the result output.<br><br>\n"
+"                        F j, Y g:i a – November 6, 2010 12:50 am<br>\n"
+"                        F j, Y – November 6, 2010<br>\n"
+"                        F, Y – November, 2010<br>\n"
+"                        g:i a – 12:50 am<br>\n"
+"                        g:i:s a – 12:50:48 am<br>\n"
+"                        l, F jS, Y – Saturday, November 6th, 2010<br>\n"
+"                        M j, Y @ G:i – Nov 6, 2010 @ 0:50<br>\n"
+"                        Y/m/d \\a\\t g:i A – 2010/11/06 at 12:50 AM<br>\n"
+"                        Y/m/d \\a\\t g:ia – 2010/11/06 at 12:50am<br>\n"
+"                        Y/m/d g:i:s A – 2010/11/06 12:50:48 AM<br>\n"
+"                        Y/m/d – 2010/11/06<br><br>%1$sView documentation%2$s "
+"on date and time formatting."
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:685
+msgid "Single Post Settings"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:690
+#: admin/class-sonaar-music-admin.php:1039
+#, php-format
+msgid "Single %1$s Page Slug"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:697
+#: admin/class-sonaar-music-admin.php:1046
+#, php-format
+msgid ""
+"Each single %2$s page has a unique URL and is represented by a slug name. "
+"You can replace it by anything you like.<br><br>eg: http://www.domain.com/"
+"<strong>%1$s</strong>/post-title"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:703
+#: admin/class-sonaar-music-admin.php:1053
+msgid "Category Slug"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:710
+#: admin/class-sonaar-music-admin.php:1060
+#, php-format
+msgid ""
+"Each %2$s's category page has a unique URL and is represented by a slug "
+"name. You can replace it by anything you like.<br><br>eg: http://www.domain."
+"com/<strong>%1$s</strong>/category-title"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:717
+#: admin/class-sonaar-music-admin.php:1068
+msgid "Podcast Show Slug"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:724
+#: admin/class-sonaar-music-admin.php:1075
+msgid ""
+"A podcast show is like a podcast category but its dedicated for Podcast "
+"shows. Main difference is that the podcast show taxonomy contains your "
+"podcast settings for your RSS feed.<br><br>Each podcast show page has a "
+"unique URL and is represented by a slug name. You can replace it by anything "
+"you like.<br><br>eg: http://www.domain.com/<strong>podcast-show</strong>/"
+"show-title"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:731
+#: admin/class-sonaar-music-admin.php:1083
+msgid "Use Advanced Player Shortcode for the Single Post"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:737
+#: admin/class-sonaar-music-admin.php:1089
+msgid "Custom Shortcode in Single Post"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:738
+#: admin/class-sonaar-music-admin.php:1090
+#, php-format
+msgid ""
+"The player in your single %3$s page can be changed/tweaked by entering our "
+"shortcode and our supported attributes.<br><br>Will override the default "
+"player widget in the single post page by your own shortcode and attributes."
+"<br><br>View shortcode & supported attributes %1$sdocumentation%2$s"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:744
+#: admin/class-sonaar-music-admin.php:1716
+#: admin/class-sonaar-music-admin.php:1827
+msgid "Custom Shortcode"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:747
+#: admin/class-sonaar-music-admin.php:1728
+#: admin/class-sonaar-music-admin.php:1839
+#, php-format
+msgid "For shortcode attributes, %1$s read this article%2$s."
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:757
+msgid "Widget Player & Controls"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:764
+msgid "Player Control"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:774
+msgid "Player Control over Image"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:785
+msgid "Play Text Label"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:797
+#: admin/class-sonaar-music-admin.php:1421
+msgid "SoundWave/Timeline Container Bar"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:807
+#: admin/class-sonaar-music-admin.php:1431
+msgid "SoundWave/Timeline Progress Bar"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:817
+msgid "Player Background Color"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:818
+#: admin/class-sonaar-music-admin.php:828
+msgid "Apply on boxed player layout and the players in the single post"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:827
+msgid "Player Playlist Background Color"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:843
+msgid "Tracklist Fonts & Colors"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:851
+#: admin/class-sonaar-music-admin.php:864
+#: admin/class-sonaar-music-admin.php:877
+#: admin/class-sonaar-music-admin.php:891
+msgid "Choose a font, font size and color"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:876
+#: admin/class-sonaar-music-admin.php:2803
+#: includes/widgets/sr-music-player.php:2513
+#: includes/widgets/sr-music-player.php:2918
+msgid "Tracklist"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:890
+msgid "Tracklist description"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:904
+msgid "Tracklist Play/Pause Color"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:912
+msgid "Optional Calls to Action Buttons"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:919
+msgid "CTA 3-Dots Drawer Colors"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:930
+msgid "CTA Text Color"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:937
+msgid "CTA Button Color"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:948
+msgid "Pro Options"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1011
+msgid "Display Dates"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1017
+msgid "Display Published Dates"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1103
+#: admin/class-sonaar-music-admin.php:1104
+#: admin/class-sonaar-music-admin.php:1123
+#: admin/class-sonaar-music-admin.php:1159
+msgid "Sticky Player Settings"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1109
+msgid "Sticky Player"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1130
+#: admin/class-sonaar-music-admin.php:4321
+msgid "Enable Sticky Player"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1137
+#, php-format
+msgid ""
+"We will automatically display the sticky footer player on your site."
+"<br><br>Create a %1$s post in WP-Admin > MP3 Player then set your audio "
+"track(s) using our custom fields.<br><br>Come back here and choose the "
+"%1$s(s) post to play in the sticky player.<br><br>Note that you can also "
+"enable the sticky player on each player instance and widget."
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1144
+#: admin/class-sonaar-music-admin.php:1347
+msgid "Enable Continuous Player"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1151
+#: admin/class-sonaar-music-admin.php:1354
+#, php-format
+msgid ""
+"Having a continuous audio playback is a stunning feature and will improve "
+"the overall UX of your website.<br><br>The concept is pretty simple. Your "
+"visitor starts the audio player from any player on your site. We save the "
+"revelant times in a cookie. When user loads a new page, everything is "
+"reloaded but the audio player resume where it left.<br><br>You can also "
+"exclude pages to prevent sticky player loads on them.<br><br>%1$sLearn More "
+"About Continuous Player%2$s"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1164
+msgid "Select Playlist IDs to play in Sticky Player when site loads"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1168
+#, php-format
+msgid ""
+"Enter a comma separated list of playlist IDs. Enter <i>latest</i> to always "
+"load the latest published %1$s playlist. Click the magnifying glass to "
+"search for playlist"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1176
+#, php-format
+msgid ""
+"We will automatically display the sticky footer player on your site."
+"<br><br>Create a %1$s post in WP-Admin > MP3 Player then set your audio "
+"track(s) using our custom fields.<br><br>Come back here and enter the "
+"%1$s(s) post ID to play in the sticky player.<br><br>Enter 'latest' (without "
+"single quotes) to automatically play the latest published post.<br><br>Note "
+"that you can also enable the sticky player on each player instance and "
+"widget."
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1182
+msgid "Use Sticky Player in the single post"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1189
+#, php-format
+msgid ""
+"Launch the sticky player when user click play from the single %1$s post "
+"page. Default is disabled."
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1195
+msgid "Display Previous/Next button"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1202
+msgid ""
+"Display the previous/next track button in the sticky player. Default is "
+"enabled."
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1208
+#: includes/widgets/sr-music-player.php:949
+msgid "Display Skip 15/30 seconds button"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1221
+#: admin/class-sonaar-music-admin.php:4112
+msgid "Show Speed Lecture button (0.5x, 1x, 2x)"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1234
+msgid "Display Tracklist button"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1241
+msgid ""
+"Display a tracklist button on the sticky player to show all tracks in the "
+"playlist. Default is enabled."
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1247
+msgid "Show Related Post in Tracklist"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1254
+#, php-format
+msgid ""
+"When enabled, we will show all tracks from all posts related to the same "
+"category than the current track being played.<br><br>These tracks will "
+"appear when tracklist button is clicked in the sticky player.<br><br>This is "
+"useful if sticky player is launched from a single post by example, and you "
+"want to show all other %1$s related to this post in the sticky."
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1260
+msgid "Display Shuffle button"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1273
+msgid "Sticky Player Preset"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1277
+msgid "Fullwidth"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1278
+msgid "Mini Fullwidth"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1279
+msgid "Float"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1285
+msgid ""
+"We have 3 different layouts for the sticky player. "
+"<br><br><strong>Fullwidth</strong> is a full width and 90px tall player."
+"<br><br><strong>Mini Fullwidth</strong> is a full width player but 42px tall."
+"<br><br><strong>Float</strong> is a floated & draggable sticky player that "
+"can be positioned on the left, center or right bottom of your screen. It's "
+"more discreet."
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1291
+msgid "Float Position"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1295
+#: includes/class-sonaar-music-block.php:1152
+#: includes/class-sonaar-music-block.php:1173
+#: includes/class-sonaar-music-block.php:1223
+#: includes/widgets/sr-music-player.php:1629
+#: includes/widgets/sr-music-player.php:2632
+#: includes/widgets/sr-music-player.php:2661
+#: includes/widgets/sr-music-player.php:2814
+#: includes/widgets/sr-music-player.php:3958
+#: includes/widgets/sr-music-player.php:3996
+msgid "Left"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1296
+#: includes/class-sonaar-music-block.php:1156
+#: includes/class-sonaar-music-block.php:1177
+#: includes/class-sonaar-music-block.php:1227
+#: includes/widgets/sr-music-player.php:1633
+#: includes/widgets/sr-music-player.php:2482
+#: includes/widgets/sr-music-player.php:2636
+#: includes/widgets/sr-music-player.php:2665
+#: includes/widgets/sr-music-player.php:2818
+#: includes/widgets/sr-music-player.php:3962
+#: includes/widgets/sr-music-player.php:4000
+msgid "Center"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1297
+msgid "Right (Default)"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1306
+msgid "Allow users to drag the player"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1316
+msgid "Sticky Roundness (px)"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1326
+msgid "Show Controls on Hover Only"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1327
+msgid "User have to hover sticky player to display controls"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1337
+msgid "Hide Progress Bar"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1360
+msgid "Exclude Continuous Player on the following slug URL(s)  "
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1363
+msgid ""
+"Always prevent Continuous Player to play on the specified URL. One path URL "
+"per line (eg: /cart/ )"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1370
+msgid "Enable shuffle mode"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1376
+msgid ""
+"When the sticky footer player kicks in, we will automatically set the "
+"shuffle mode On so the tracks play randomly."
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1382
+msgid "Sticky Player Typography and Colors"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1389
+#: admin/class-sonaar-music-admin.php:1988
+#: includes/widgets/sr-music-player.php:3757
+msgid "Typography"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1401
+msgid "Featured Color"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1411
+msgid "Labels and Buttons"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1441
+msgid "Mobile Progress Bars"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1451
+msgid "Sticky Background Color"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1466
+#: admin/class-sonaar-music-admin.php:1467
+msgid "WooCommerce Settings"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1472
+msgid "WooCommerce"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1486
+msgid "WooCommerce Setting"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1491
+msgid "Pro WooCommerce Feature | Upgrade to Pro"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1496
+msgid "Enable Player in WooCommerce Grid"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1502
+#: admin/class-sonaar-music-admin.php:1680
+msgid "WC Shop Loop"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1503
+#: admin/class-sonaar-music-admin.php:1681
+msgid ""
+"When you display your WooCommerce products in a grid, shop page or archive, "
+"you may want to display audio players on each instance.<br><br>You can "
+"choose to display audio controls over or below the thumbnail."
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1510
+msgid "Enable Player in WooCommerce Page"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1516
+msgid "Enable Player in WC Single Page"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1517
+#: admin/class-sonaar-music-admin.php:1794
+#, php-format
+msgid ""
+"For each single product page, we automatically display the audio player if "
+"you have set tracks using our custom fields.<br><br>The player is shown "
+"within the product's detail page.\n"
+"                                You can either use the settings below to "
+"setup the player layout, or use our shortcode with any of our supported "
+"attributes for more flexibility.<br><br>\n"
+"                                View shortcode & supported attributes "
+"%1$sdocumentation%2$s."
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1526
+msgid "Enable Music Licenses & Contracts Post Type"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1533
+#: admin/class-sonaar-music-admin.php:1659
+msgid ""
+"This will enable the Music Licenses & Contracts custom post type used to "
+"sell music license with product variation in WooCommerce"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1539
+#: admin/class-sonaar-music-admin.php:1569
+msgid "WooCommerce CTA Buttons in tracklist"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1551
+#: admin/class-sonaar-music-admin.php:1581
+#: includes/widgets/sr-music-player.php:3325
+msgid "Call-to-Action Buttons"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1552
+#: admin/class-sonaar-music-admin.php:1582
+msgid ""
+"When tracks are added through a WooCommerce product post, we automatically "
+"display Buy Now / Add to Cart call-to-action buttons beside each track."
+"<br><br>\n"
+"                                Here you can set what to display in the call-"
+"to-action buttons.<br><br>\n"
+"                                Example:<br><br>\n"
+"                                <strong>Label + Price</strong> = [ Buy Now "
+"$9.99 ]<br>\n"
+"                                <strong>Label Only</strong> = [ Buy "
+"Now ]<br>\n"
+"                                <strong>Price Only</strong> = [ $9.99 ]<br>\n"
+"                                <strong>Inactive</strong> = No button will "
+"be displayed<br><br>\n"
+"                                You can disable call-to-action buttons for "
+"specific products by editing the product post.<br><br>\n"
+"                                You can change or translate the label "
+"strings below."
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1596
+msgid "Add to Cart Label"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1607
+msgid "Buy Now Label"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1618
+msgid "WooCommerce CTA - Show Icon"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1629
+msgid ""
+"When option is disable, we remove the small cart icon beside the text label"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1635
+msgid "Enable lightbox for variable products"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1646
+msgid ""
+"When users add a product that contains product variations to their cart, a "
+"lightbox will be displayed where they can choose which product variation/"
+"usage license to buy. If disabled, users will be redirected to the single "
+"product page in order to choose the variation."
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1652
+msgid "Enable Music Licenses & Contracts CPT"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1664
+msgid "Enable AJAX Add-to-Cart"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1670
+msgid "Enable AJAX Add-to-Cart buttons"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1675
+msgid "WooCommerce Shop Loop/Archive Page"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1687
+#: admin/class-sonaar-music-admin.php:1802
+msgid "Player Position"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1691
+#: admin/class-sonaar-music-admin.php:1806
+msgid "Inactive"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1692
+msgid "Over the image"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1693
+#: admin/class-sonaar-music-admin.php:1807
+msgid "Before the title"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1694
+#: admin/class-sonaar-music-admin.php:1808
+msgid "After the title"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1695
+msgid "After the block item"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1700
+#: includes/widgets/sr-music-player.php:1219
+msgid "Show Control On Hover"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1710
+#: admin/class-sonaar-music-admin.php:1821
+msgid "Design Preset"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1715
+#: admin/class-sonaar-music-admin.php:1826
+msgid "Use Settings Below"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1725
+msgid "Player Shortcode"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1737
+msgid "Remove WooCommerce Featured Image"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1748
+#: admin/class-sonaar-music-admin.php:1848
+msgid "Display Sticky Player on Play"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1758
+#: admin/class-sonaar-music-admin.php:1858
+msgid "Display Tracklist"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1768
+#: admin/class-sonaar-music-admin.php:1888
+msgid "Display Progress Bar"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1778
+#: admin/class-sonaar-music-admin.php:1898
+msgid "Progress Bar Inline"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1788
+msgid "WooCommerce PRODUCT Page"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1809
+msgid "Before the rating"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1810
+msgid "After the price"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1811
+msgid "After Add to Cart"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1812
+msgid "Before short description"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1813
+msgid "After short description"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1814
+msgid "Before metadata"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1815
+msgid "After metadata"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1816
+msgid "After the summary"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1836
+msgid "WooCommerce Product Player Shortcode"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1868
+msgid "Tracklist Title"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1878
+msgid "Tracklist Subtitle"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1908
+msgid "Display Control Buttons"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1926
+msgid "Popup Settings"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1927
+msgid "Popup Call-to-Action Settings"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1932
+msgid "Popup / Lightbox"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1946
+#: admin/class-sonaar-music-admin.php:1972
+msgid "Popup / Lightbox / Modal Look and feel"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1953
+msgid "Enable Call-to-Action Pop-up"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:1960
+#: admin/class-sonaar-music-admin.php:1978
+#, php-format
+msgid ""
+"You can display call-to-action buttons beside each track, by editing your "
+"%1$s's post.<br><br>For each button, you can choose its action between a "
+"link URL or a Popup to display content such as text, forms or any third "
+"party plugin shortcodes in a popup window.<br><br>\n"
+"                                You can also display track description and "
+"we will display it within a lightbox. Useful for episode and show notes!"
+"<br><br>\n"
+"                                This is the popup lightbox look and feel "
+"settings"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2000
+msgid "Close button color"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2010
+msgid "Background Color"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2021
+msgid "Product Variation Background Color"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2032
+msgid "Product Variation Accent Color"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2043
+#: includes/widgets/sr-music-player.php:4048
+#: includes/widgets/sr-music-player.php:4082
+msgid "Button Color"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2049
+#: admin/class-sonaar-music-admin.php:2060
+msgid "For Product Variations Popup Modal"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2054
+msgid "Button Text Color"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2069
+#: admin/class-sonaar-music-admin.php:2075
+msgid "Stats & Reports"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2070
+msgid "Statistic & Report Settings"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2088
+msgid "Statistic & Report"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2093
+msgid "PRO LICENCE REQUIRED | UPGRADE TO PRO"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2097
+#: admin/class-sonaar-music-admin.php:2119
+msgid "Google Analytics Tracking Code"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2101
+#: admin/class-sonaar-music-admin.php:2122
+msgid "UA-XXXXXXXXX-X"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2105
+#: admin/class-sonaar-music-admin.php:2126
+#, php-format
+msgid ""
+"MP3 Audio Player PRO can connect to your Google Analytics so you will "
+"receive statistics report such as number of plays and number of downloads "
+"for each tracks directly in your Google Analytics Dashboard. All you need is "
+"a %1$sGoogle Analytics%2$s account.<br><br>Read %3$sthis article%2$s to "
+"learn more"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2114
+msgid "Stats & Report"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2132
+msgid "Use Built-In Stats Report (Deprecated)"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2137
+msgid "Deprecated Option"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2138
+msgid ""
+"This option is deprecated and will be removed in the next update. Use Google "
+"Analytics instead."
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2149
+msgid "Import"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2150
+msgid "Tools & Importer"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2155
+msgid "Tools / Import"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2161
+msgid "Podcast RSS Importer"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2163
+#, php-format
+msgid ""
+"%1$sImport your existing Podcast Episodes%2$s by using your RSS Feed URL "
+"provided by your Podcast provider. We support all major podcast distributors!"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2168
+#: admin/class-sonaar-music-admin.php:2177
+#: admin/class-sonaar-music-admin.php:2366
+#: admin/class-sonaar-music-admin.php:2375
+msgid "Podcast Fetcher : Automatically import New Episode"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2172
+#: admin/class-sonaar-music-admin.php:2179
+#, php-format
+msgid ""
+"Give you the ability to automatically fetch/import new episodes on your "
+"website from your existing Podcast distributor as soon as a new episode came "
+"out! %1$sLearn More%2$s "
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2189
+#: admin/class-sonaar-music-admin.php:2196
+msgid "MP3 Bulk Importer"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2191
+msgid "Import MP3 Files and create post(s) or product(s) in 1-click!"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2198
+#, php-format
+msgid "%1$sImport MP3 Files and create post(s) or product(s) in 1-click!%2$s"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2203
+#: admin/partials/srmp3_options_importer.php:42
+msgid "Global Settings Import/Export"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2205
+#, php-format
+msgid "%1$sImport/Export plugin settings from/to another website%2$s"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2213
+msgid "Arts"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2214
+msgid "Business"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2215
+msgid "Comedy"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2216
+msgid "Education"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2217
+msgid "Fiction"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2218
+msgid "Government"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2219
+msgid "Health & Fitness"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2220
+msgid "History"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2221
+msgid "Kids & Family"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2222
+msgid "Leisure"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2223
+msgid "Music"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2224
+msgid "News"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2225
+msgid "Religion & Spirituality"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2226
+msgid "Science"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2227
+msgid "Society & Culture"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2228
+msgid "Sports"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2229
+msgid "Technology"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2230
+msgid "True Crime"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2231
+msgid "TV & Film"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2234
+msgid "-- None --"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2236
+msgid "Arts > Books"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2237
+msgid "Arts > Design"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2238
+msgid "Arts > Fashion & Beauty"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2239
+msgid "Arts > Food"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2240
+msgid "Arts > Performing Arts"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2241
+msgid "Arts > Visual Arts"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2243
+msgid "Business > Careers"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2244
+msgid "Business > Enterpreneurship"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2245
+msgid "Business > Investing"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2246
+msgid "Business > Management"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2247
+msgid "Business > Marketing"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2248
+msgid "Business > Non-profit"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2250
+msgid "Comedy > Comedy Interviews"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2251
+msgid "Comedy > Improv"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2252
+msgid "Comedy > Standup"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2254
+msgid "Education > Courses"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2255
+msgid "Education > How to"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2256
+msgid "Education > Language Learning"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2257
+msgid "Education > Self Improvement"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2259
+msgid "Fiction > Comedy Fiction"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2260
+msgid "Fiction > Drama"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2261
+msgid "Fiction > Science Fiction"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2263
+msgid "Health & Fitness > Alternative Health"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2264
+msgid "Health & Fitness > Fitness"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2265
+msgid "Health & Fitness > Medicine"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2266
+msgid "Health & Fitness > Mental Health"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2267
+msgid "Health & Fitness > Nutrition"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2268
+msgid "Health & Fitness > Sexuality"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2270
+msgid "Kids & Family > Education for Kids"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2271
+msgid "Kids & Family > Parenting"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2272
+msgid "Kids & Family > Pets & Animals"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2273
+msgid "Kids & Family > Stories for Kids"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2275
+msgid "Leisure > Animation & Manga"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2276
+msgid "Leisure > Automotive"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2277
+msgid "Leisure > Aviation"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2278
+msgid "Leisure > Crafts"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2279
+msgid "Leisure > Games"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2280
+msgid "Leisure > Hobbies"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2281
+msgid "Leisure > Home & Garden"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2282
+msgid "Leisure > Video Games"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2284
+msgid "Music > Music Commentary"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2285
+msgid "Music > Music History"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2286
+msgid "Music > Music Interviews"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2288
+msgid "News > Business News"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2289
+msgid "News > Daily News"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2290
+msgid "News > Entertainment News"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2291
+msgid "News > News Commentary"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2292
+msgid "News > Politics"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2293
+msgid "News > Sports News"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2294
+msgid "News > Tech News"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2296
+#: admin/class-sonaar-music-admin.php:2303
+msgid "Religion & Spirituality > Buddhism"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2297
+msgid "Religion & Spirituality > Christianity"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2298
+msgid "Religion & Spirituality > Hinduism"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2299
+msgid "Religion & Spirituality > Islam"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2300
+msgid "Religion & Spirituality > Judaism"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2301
+msgid "Religion & Spirituality > Religion"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2302
+msgid "Religion & Spirituality > Spirituality"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2306
+msgid "Science > Astronomy"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2307
+msgid "Science > Chemistry"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2308
+msgid "Science > Earth Sciences"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2309
+msgid "Science > Life Sciences"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2310
+msgid "Science > Mathematics"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2311
+msgid "Science > Natural Sciences"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2312
+msgid "Science > Nature"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2313
+msgid "Science > Physics"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2314
+msgid "Science > Social Sciences"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2316
+msgid "Society & Culture > Documentary"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2317
+msgid "Society & Culture > Personal Journals"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2318
+msgid "Society & Culture > Philosophy"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2319
+msgid "Society & Culture > Places & Travel"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2320
+msgid "Society & Culture > Relationships"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2322
+msgid "Sports > Baseball"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2323
+msgid "Sports > Basketball"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2324
+msgid "Sports > Cricket"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2325
+msgid "Sports > Fantasy Sports"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2326
+msgid "Sports > Football"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2327
+msgid "Sports > Golf"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2328
+msgid "Sports > Hockey"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2329
+msgid "Sports > Rugby"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2330
+msgid "Sports > Running"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2331
+msgid "Sports > Soccer"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2332
+msgid "Sports > Swimming"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2333
+msgid "Sports > Tennis"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2334
+msgid "Sports > Volleyball"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2335
+msgid "Sports > Wilderness"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2336
+msgid "Sports > Wrestling"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2338
+msgid "TV & Film > After Shows"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2339
+msgid "TV & Film > Film History"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2340
+msgid "TV & Film > Film Interviews"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2341
+msgid "TV & Film > Film Reviews"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2342
+msgid "TV & Film > TV Reviews"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2349
+msgid "Podcast RSS Tools"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2359
+msgid "RSS Importer"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2361
+#, php-format
+msgid "Import your existing Podcast Episodes %1$shere.%2$s"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2370
+#: admin/class-sonaar-music-admin.php:2377
+#, php-format
+msgid ""
+"Give you the ability to automatically fetch/import new episodes on your "
+"website from your existing Podcast distributor as soon as a new episode came "
+"out! %1$sLearn More%2$s<br><br>"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2384
+#: admin/class-sonaar-music-admin.php:2385
+#: admin/class-sonaar-music-admin.php:2555
+#: includes/class-sonaar-podcast-rss-import.php:627
+msgid "Podcast RSS Settings"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2407
+msgid "Original RSS Feed URL"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2410
+#: admin/class-sonaar-music-admin.php:2444
+msgid "A description/summary of your podcast - no HTML allowed."
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2413
+msgid "RSS Feed Settings"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2415
+#, php-format
+msgid ""
+"\n"
+"                Your Podcast Show ID is %4$s<br>\n"
+"                Your WordPress RSS Feed URL is %1$s %3$s %2$s<br><br>\n"
+"                An RSS feed is the only way an audience can access a "
+"podcast's content. Without an RSS feed, your podcast will not appear on your "
+"website or any podcasting directories, making it impossible for people to "
+"listen to it. Every podcast needs an RSS feed, there are not any exceptions."
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2425
+msgid "Disable this RSS Feed"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2431
+msgid "Podcast Title"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2436
+msgid "Podcast Subtitle"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2441
+msgid "Podcast Description"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2447
+msgid "Podcast Show Cover Image"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2468
+msgid "Podcast Author Name"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2473
+msgid "Podcast Owner Name"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2478
+msgid "Podcast Author Email"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2483
+msgid "Podcast Language"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2486
+#, php-format
+msgid "Your podcast's language in %1$sISO-639-1 format%2$s."
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2490
+msgid "Podcast Copyright"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2508
+msgid ""
+"Attention! Make sure you choose a subcategory that belong to the choosen "
+"Category above otherwise Apple will reject it. "
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2511
+msgid "Is your podcast explicit?"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2517
+msgid "Is your podcast complete?"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2518
+msgid ""
+"Mark if this podcast is complete or not. Only do this if no more episodes "
+"are going to be added to this feed."
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2529
+msgid "Episodic"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2530
+msgid "Serial"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2532
+#, php-format
+msgid ""
+"The order your podcast episodes will be listed. %1$sMore details here.%2$s"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2535
+msgid "Redirect this feed to a new URL"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2536
+msgid "Redirect your feed to a new URL (specified below)."
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2542
+msgid "Podcast feed URL redirection"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2568
+msgid ""
+"Where your listeners can subscribe? Will display a follow/subscribe button "
+"on the player. You can reorder the buttons by using the up/down arrows. "
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2573
+msgid "Add Subscribe Button"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2574
+msgid "Remove Button"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2580
+#: admin/class-sonaar-music-admin.php:3446
+#: includes/widgets/sr-music-player.php:442
+msgid "Icon"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2596
+msgid "Label"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2603
+#: includes/widgets/sr-music-player.php:461
+msgid "Link URL"
+msgstr ""
+
+#. Author of the plugin/theme
+#: admin/class-sonaar-music-admin.php:2677
+msgid "Sonaar Music"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2712
+#: admin/class-sonaar-music-admin.php:2716
+#: includes/widgets/sr-music-player.php:991
+#: includes/widgets/sr-music-player.php:1025
+msgid "Go Pro"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2737
+msgid "Apple Podcasts"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2738
+msgid "Spotify"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2739
+msgid "Google Podcasts"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2740
+msgid "Amazon Music"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2741
+msgid "Castbox"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2742
+msgid "Castro"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2743
+msgid "Deezer"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2744
+msgid "iHeart Radio"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2745
+msgid "Overcast"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2746
+msgid "Pandora"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2747
+msgid "Player FM"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2748
+msgid "Pocket Casts"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2749
+msgid "Podcast Addict"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2750
+msgid "Podcast Index"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2751
+msgid "Podchaser"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2752
+msgid "Stitcher"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2753
+msgid "TuneIn"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2754
+msgid "RSS Feed"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2761
+msgid "Album Infos"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2761
+msgid "Podcast Infos"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2764
+msgid "Track Title"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2764
+msgid "Episode Title"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2767
+msgid "Track Album"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2767
+msgid "Podcast Name"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2770
+#: admin/class-sonaar-music-admin.php:2830
+msgid "Album Subtitle"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2770
+msgid "Episode Subtitle"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2773
+msgid "Do not skip to the next track"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2773
+msgid "Do not skip to the next episode"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2776
+msgid "Track {#}"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2776
+msgid "Episode {#}"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2779
+msgid "Add Another Track"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2779
+msgid "Add Another Episode"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2782
+msgid "Remove Track"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2782
+msgid "Remove Episode"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2785
+msgid "Optional Track Image"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2785
+msgid "Optional Episode Cover"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2788
+msgid "Playlist Cover Image"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2788
+msgid "Podcast Cover Image"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2791
+msgid "Remove Playlist Cover"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2791
+msgid "Remove Podcast Cover"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2794
+msgid "All Playlists"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2794
+msgid "All Episodes"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2797
+msgid "Playlists"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2797
+msgid "Episodes"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2800
+#: admin/class-sonaar-music-admin.php:2845
+msgid "playlist"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2800
+#: admin/class-sonaar-music-admin.php:2815
+#: admin/class-sonaar-music-admin.php:2842
+msgid "episode"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2803
+msgid "Episodes List"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2806
+msgid "Add New Playlist"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2806
+msgid "Add New Episode"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2809
+msgctxt "Taxonomy : name"
+msgid "Playlist Categories"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2809
+msgctxt "Taxonomy : name"
+msgid "Podcast Categories"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2812
+msgid "Edit Playlist"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2812
+msgid "Edit Episode"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2815
+msgid "album"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2818
+msgid "playlist-category"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2818
+msgid "podcast-category"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2821
+msgid "Display Artist Name"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2821
+msgid "Display Author Name"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2824
+msgid "Artist Name Prefix Separator"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2824
+msgid "Author Name Prefix Separator"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2827
+msgid "Album Title"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2827
+msgid "Player Title"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2830
+msgid "Player Subtitle"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2833
+msgid "Album cover size image source"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2833
+msgid "Episode cover size image source"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2839
+msgid "Optional Track Information"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2839
+msgid "Episode Description/Notes"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2842
+msgid "track"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2845
+msgid "podcast"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2883
+msgid "N/A"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2901
+msgid "NEW! Player Design"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2905
+msgid "Default (Same as the General Settings)"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2906
+#: admin/class-sonaar-music-admin.php:4067
+#: includes/widgets/sr-music-player.php:537
+msgid "Floated"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2907
+#: admin/class-sonaar-music-admin.php:4068
+#: includes/widgets/sr-music-player.php:538
+msgid "Boxed"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2925
+msgid "E.g. Release Date: 2019, New Album, Sold Out, etc. "
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2937
+#: admin/class-sonaar-music-admin.php:2970
+msgid "Add to Cart button"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2940
+#: admin/class-sonaar-music-admin.php:2973
+msgid "Add to Cart button link"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2941
+#: admin/class-sonaar-music-admin.php:2974
+#, php-format
+msgid "Display an Add to Cart button in the %s"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2954
+#: admin/class-sonaar-music-admin.php:2985
+msgid "Buy Now button"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2957
+#: admin/class-sonaar-music-admin.php:2988
+msgid "Buy Now button link"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:2958
+#: admin/class-sonaar-music-admin.php:2989
+#, php-format
+msgid "Display a Buy Now button in the %s"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3000
+#, php-format
+msgid "Do not loop %s"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3001
+#, php-format
+msgid "When %s ends, do not loop to first %s automatically."
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3010
+#, php-format
+msgid "When the current %s ends, do not play the second %s automatically."
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3017
+msgid "Reverse Order"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3034
+msgid "Audio Tracks"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3039
+msgid "Source File"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3053
+msgid "MP3 File"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3055
+msgid "Only .MP3 file accepted"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3073
+msgid "External Audio link"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3075
+#, php-format
+msgid ""
+"Enter URL that points to your audio file. See %s for supported providers"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3097
+msgid "Leave blank if it's the same as the post title"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3108
+msgid "Audio Duration"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3109
+msgid ""
+"Format accepted: 01:20:30 (Eg: For 1 hour 20 minutes and 30 seconds duration)"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3124
+msgid ""
+"BPM, Hashtag, Description, etc. Will appear below track title in the "
+"playlist."
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3127
+#: admin/class-sonaar-music-admin.php:3153
+#: admin/class-sonaar-music-admin.php:3179
+msgid "Pro Feature"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3171
+#, php-format
+msgid ""
+"We support Timed Text Markup Language (TTML). You can generate your .ttml "
+"file %1$shere%3$s. Fun & Easy! %2$sLearn More%3$s"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3185
+msgid "Optional Call to Action"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3194
+msgid "Eg: Spotify, SoundCloud, Buy Now"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3195
+msgid "Make sure playlist is wide enough to display the label"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3197
+msgid "Eg: Text, Lyrics, Shortcodes and HTML accepted"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3203
+msgid "Mark this episode as explicit"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3210
+msgid "Block episode from appearing in the RSS"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3217
+msgid "iTunes Episode Title (exclude series or show number)"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3223
+msgid "Episode Number. Leave blank if none"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3229
+msgid "Season number. Leave blank if none"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3235
+msgid "Episode Type"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3241
+msgid "Full"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3242
+msgid "Trailer"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3243
+msgid "Bonus"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3252
+#: includes/widgets/sr-music-player.php:3830
+msgid "External Links Buttons"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3255
+msgid "Store Links"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3260
+msgid "Add Link"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3266
+msgid "Why MP3 Player PRO?"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3277
+msgid "sonaar pro"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3292
+msgid "What is included in the license"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3300
+msgid "Bind this license to which product attribute?"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3301
+msgid "Product attributes are created in Products > Attributes."
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3306
+msgid "Linked Product Attribute"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3319
+msgid "File Included"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3322
+msgid "MP3"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3323
+msgid "WAV"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3324
+msgid "TRACK STEMS"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3329
+#: admin/class-sonaar-music-admin.php:3586
+msgid "Producer Name"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3330
+msgid "Enter the contract producer name"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3335
+msgid "Number of distribution copies"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3336
+#: admin/class-sonaar-music-admin.php:3346
+#: admin/class-sonaar-music-admin.php:3356
+#: admin/class-sonaar-music-admin.php:3366
+#: admin/class-sonaar-music-admin.php:3376
+#: admin/class-sonaar-music-admin.php:3386
+msgid "Enter a number or the word Unlimited"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3340
+msgid "Distribution Copies"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3345
+msgid "Number of audio streams"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3351
+msgid "Audio Streams"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3355
+msgid "Number of radio stations"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3361
+msgid "Radio"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3365
+msgid "Number of free downloads"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3371
+msgid "Free Downloads"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3375
+msgid "Number of music video"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3381
+msgid "Music Videos"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3385
+msgid "Number of video streams"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3391
+msgid "Video Streams"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3395
+msgid "State or province"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3396
+msgid "Enter your state or province"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3401
+msgid "Country"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3402
+msgid "Enter your country name"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3407
+msgid "Allow for profit live performances"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3412
+#: admin/class-sonaar-music-admin.php:4086
+#: admin/class-sonaar-music-admin.php:4102
+#: admin/class-sonaar-music-admin.php:4118
+#: admin/class-sonaar-music-admin.php:4134
+#: admin/class-sonaar-music-admin.php:4150
+#: admin/class-sonaar-music-admin.php:4166
+#: admin/class-sonaar-music-admin.php:4182
+#: admin/class-sonaar-music-admin.php:4200
+#: includes/class-sonaar-music-block.php:1210
+#: includes/widgets/sr-music-player.php:240
+#: includes/widgets/sr-music-player.php:550
+#: includes/widgets/sr-music-player.php:561
+#: includes/widgets/sr-music-player.php:572
+#: includes/widgets/sr-music-player.php:613
+#: includes/widgets/sr-music-player.php:856
+#: includes/widgets/sr-music-player.php:889
+#: includes/widgets/sr-music-player.php:902
+#: includes/widgets/sr-music-player.php:914
+#: includes/widgets/sr-music-player.php:927
+#: includes/widgets/sr-music-player.php:939
+#: includes/widgets/sr-music-player.php:951
+#: includes/widgets/sr-music-player.php:963
+#: includes/widgets/sr-music-player.php:976
+#: includes/widgets/sr-music-player.php:1167
+#: includes/widgets/sr-music-player.php:1221
+#: includes/widgets/sr-music-player.php:2146
+#: includes/widgets/sr-music-player.php:2349
+#: includes/widgets/sr-music-player.php:2378
+#: includes/widgets/sr-music-player.php:2407
+#: includes/widgets/sr-music-player.php:2436
+#: includes/widgets/sr-music-player.php:2557
+#: includes/widgets/sr-music-player.php:2957
+#: includes/widgets/sr-music-player.php:3177
+#: includes/widgets/sr-music-player.php:3220
+#: includes/widgets/sr-music-player.php:3260
+#: includes/widgets/sr-music-player.php:3313
+#: includes/widgets/sr-music-player.php:3345
+#: includes/widgets/sr-music-player.php:3367
+#: includes/widgets/sr-music-player.php:3428
+#: includes/widgets/sr-music-player.php:3671
+#: includes/widgets/sr-music-player.php:3780
+#: includes/widgets/sr-music-player.php:3796
+#: includes/widgets/sr-music-player.php:3809
+#: includes/widgets/srpro-buttonplayer.php:73
+msgid "Yes"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3413
+#: admin/class-sonaar-music-admin.php:4087
+#: admin/class-sonaar-music-admin.php:4103
+#: admin/class-sonaar-music-admin.php:4119
+#: admin/class-sonaar-music-admin.php:4135
+#: admin/class-sonaar-music-admin.php:4151
+#: admin/class-sonaar-music-admin.php:4167
+#: admin/class-sonaar-music-admin.php:4183
+#: admin/class-sonaar-music-admin.php:4201
+#: includes/class-sonaar-music-block.php:1214
+#: includes/widgets/sr-music-player.php:241
+#: includes/widgets/sr-music-player.php:551
+#: includes/widgets/sr-music-player.php:562
+#: includes/widgets/sr-music-player.php:573
+#: includes/widgets/sr-music-player.php:614
+#: includes/widgets/sr-music-player.php:857
+#: includes/widgets/sr-music-player.php:890
+#: includes/widgets/sr-music-player.php:903
+#: includes/widgets/sr-music-player.php:915
+#: includes/widgets/sr-music-player.php:928
+#: includes/widgets/sr-music-player.php:940
+#: includes/widgets/sr-music-player.php:952
+#: includes/widgets/sr-music-player.php:964
+#: includes/widgets/sr-music-player.php:977
+#: includes/widgets/sr-music-player.php:1168
+#: includes/widgets/sr-music-player.php:1222
+#: includes/widgets/sr-music-player.php:2147
+#: includes/widgets/sr-music-player.php:2350
+#: includes/widgets/sr-music-player.php:2379
+#: includes/widgets/sr-music-player.php:2408
+#: includes/widgets/sr-music-player.php:2437
+#: includes/widgets/sr-music-player.php:2558
+#: includes/widgets/sr-music-player.php:2958
+#: includes/widgets/sr-music-player.php:3178
+#: includes/widgets/sr-music-player.php:3221
+#: includes/widgets/sr-music-player.php:3261
+#: includes/widgets/sr-music-player.php:3314
+#: includes/widgets/sr-music-player.php:3346
+#: includes/widgets/sr-music-player.php:3368
+#: includes/widgets/sr-music-player.php:3429
+#: includes/widgets/sr-music-player.php:3672
+#: includes/widgets/sr-music-player.php:3781
+#: includes/widgets/sr-music-player.php:3797
+#: includes/widgets/sr-music-player.php:3810
+#: includes/widgets/srpro-buttonplayer.php:74
+msgid "No"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3423
+msgid "Add License Option"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3424
+msgid "Remove Option"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3431
+msgid "Option Name"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3432
+msgid "eg: 10 videos included"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3437
+msgid "ID Variable for the contract"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3438
+msgid "ID without space and between curly brackets. "
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3469
+msgid ""
+"\n"
+"<h1>{LICENSE_NAME}</h1>\n"
+"\n"
+"<p>This License Agreement (the “Agreement”), having been made on and "
+"effective as of <strong>{CONTRACT_DATE}</strong> (the “Effective Date”) by "
+"and between <strong>{PRODUCER_ALIAS}</strong> (the “Producer” or "
+"“Licensor”); and you, <strong>{CUSTOMER_FULLNAME}</strong> (“You” or "
+"“Licensee”), residing at <strong>{CUSTOMER_ADDRESS}</strong>, sets forth the "
+"terms and conditions of the Licensee’s use, and the rights granted in, the "
+"Producer’s instrumental music file entitled <strong>{PRODUCT_TITLE}</strong> "
+"(the “Beat”) in consideration for Licensee’s payment, on a so-called "
+"“<strong>{LICENSE_NAME}</strong>” basis.</p>\n"
+"\n"
+"<p>This Agreement is issued solely in connection with and for Licensee use "
+"of the Beat pursuant and subject to all terms and conditions set forth "
+"herein.</p>\n"
+"\n"
+"<h3>License Fee:</h3>\n"
+"<p>The Licensee to shall make payment of the License Fee to Licensor on the "
+"date of this Agreement. All rights granted to Licensee by Producer in the "
+"Beat are conditional upon Licensee’s timely payment of the License Fee. The "
+"License Fee is a one-time payment for the rights granted to Licensee and "
+"this Agreement is not valid until the License Fee has been paid.</p>\n"
+"\n"
+"<h3>Delivery of the Beat:</h3>\n"
+"<p>Licensor agrees to deliver the Beat as a high-quality file, as such terms "
+"are understood in the music industry. Licensor shall use commercially "
+"reasonable efforts to deliver the Beat to Licensee immediately after payment "
+"of the License Fee is made. Licensee will receive the Beat via email, to the "
+"email address Licensee provided to Licensor.</p>\n"
+"\n"
+"<h3>Term:</h3>\n"
+"<p>The Term of this Agreement shall be ten (10) years and this license shall "
+"expire on the ten (10) year anniversary of the Effective Date.</p>\n"
+"\n"
+"<h3>Use of the Beat:</h3>\n"
+"<p>In consideration for Licensee’s payment of the License Fee, the Producer "
+"hereby grants Licensee a limited non-exclusive, nontransferable license and "
+"the right to incorporate, include and/or use the Beat in the preparation of "
+"one (1) new song or to incorporate the Beat into a new piece of instrumental "
+"music created by the Licensee. Licensee may create the new song or new "
+"instrumental music by recording his/her written lyrics over the Beat and/or "
+"by incorporating portions/samples of the Beat into pre-existing instrumental "
+"music written, produced and/or owned by Licensee. The new song or piece of "
+"instrumental music created by the Licensee which incorporates some or all of "
+"the Beat shall be referred to as the “New Song”. Permission is granted to "
+"Licensee to modify the arrangement, length, tempo, or pitch of the Beat in "
+"preparation of the New Song for public release.</p>\n"
+"<p>This License grants Licensee a worldwide, non-exclusive license to use "
+"the Beat as incorporated in the New Song in the manners and for the purposes "
+"expressly provided for herein, subject to the sale restrictions, limitations "
+"and prohibited uses stated in this Agreement. Licensee acknowledges and "
+"agrees that any and all rights granted to Licensee in the Beat pursuant to "
+"this Agreement are on a NON-EXCLUSIVE basis and Producer shall continue to "
+"license the Beat upon the same or similar terms and conditions as this "
+"Agreement to other potential third-party licensees.</p>\n"
+"<p>The New Song may be used for any promotional purposes, including but not "
+"limited to, a release in a single format, for inclusion in a mixtape or free "
+"compilation of music bundled together (EP or album), and/or promotional, non-"
+"monetized digital streaming;</p>\n"
+"<p>Licensee <strong>{PERFORMANCES_FOR_PROFIT}</strong> perform the song "
+"publicly for-profit performances, including but not limited to, at a live "
+"performance (i.e. concert, festival, nightclub etc.), on terrestrial or "
+"satellite radio, and/or on the internet via third-party streaming services "
+"(Spotify, YouTube, iTunes Radio etc.). The New Song may be played on "
+"{NUMBER_OF_RADIO_STATIONS} terrestrial or satellite radio stations;</p>\n"
+"<p>The Licensee may use the New Song in synchronization with "
+"<strong>{MONETIZED_MUSIC_VIDEOS}</strong> audiovisual work no longer than "
+"five (5) minutes in length (a “Video”). In the event that the New Song "
+"itself is longer than five (5) minutes in length, the Video may not play for "
+"longer than the length of the New Song. The Video may be broadcast on any "
+"television network and/or uploaded to the internet for digital streaming and/"
+"or free download by the public including but not limited to on YouTube and/"
+"or Vevo. Producer grants no other synchronization rights to Licensee;</p>\n"
+"<p>The Licensee may make the New Song available for sale in physical and/or "
+"digital form and sell <strong>{DISTRIBUTE_COPIES}</strong> downloads/"
+"physical music products and are allowed <strong>{AUDIO_STREAMS}</strong> "
+"monetized audio streams, <strong>{MONETIZED_VIDEO_STREAMS_ALLOWED}</strong> "
+"monetized video streams, <strong>{NONMONETIZED_VIDEO_STREAMS_ALLOWED}</"
+"strong> non-monetized video streams and are allowed <strong>{FREE_DOWNLOADS}"
+"</strong> free downloads. The New Song may be available for sale as a single "
+"and/or included in a compilation of other songs bundled together by Licensee "
+"as an EP or a full-length Album. The New Song may be sold via digital "
+"retailers for permanent digital download in mp3 format and/or physical "
+"format, including compact disc and vinyl records. For clarity and avoidance "
+"of doubt, the Licensee does NOT have the right to sell the Beat in the form "
+"that it was delivered to Licensee. The Licensee must create a New Song (or "
+"instrumental as detailed above) for its rights under this provision to a "
+"vest. Any sale of the Beat in its original form by Licensee shall be a "
+"material breach of this Agreement and the Licensee shall be liable to the "
+"Licensor for damages as provided hereunder.</p>\n"
+"<p>Subject to the Licensee’s compliance with the terms and conditions of "
+"this Agreement, Licensee shall not be required to account or pay to Producer "
+"any royalties, fees, or monies paid to or collected by the Licensee "
+"(expressly excluding mechanical royalties), or which would otherwise be "
+"payable to Producer in connection with the use/exploitation of the New Song "
+"as set forth in this Agreement.</p>\n"
+"<p>Restrictions on the Use of the Beat: Licensee hereby agrees and "
+"acknowledges that it is expressly prohibited from taking any action(s) and "
+"from engaging in any use of the Beat or New Song in the manners, or for the "
+"purposes, set forth below:</p>\n"
+"<p>The rights granted to Licensee are NON-TRANSFERABLE and that Licensee may "
+"not transfer or assign any of its rights hereunder to any third-party;</p>\n"
+"<p>The Licensee shall not synchronize, or permit third parties to "
+"synchronize, the Beat or New Song with any audiovisual works EXCEPT as "
+"expressly provided for and pursuant to Paragraph 4(b)(iii) of this Agreement "
+"for use in one (1) Video. This restriction includes, but is not limited to, "
+"use of the Beat and/or New Song in television, commercials, film/movies, "
+"theatrical works, video games, and in any other form on the Internet which "
+"is not expressly permitted herein.</p>\n"
+"<p>The Licensee shall not have the right to license or sublicense any use of "
+"the Beat or of the New Song, in whole or in part, for any so-called "
+"“samples”.</p>\n"
+"<p>Licensee shall not engage in any unlawful copying, streaming, "
+"duplicating, selling, lending, renting, hiring, broadcasting, uploading, or "
+"downloading to any database, servers, computers, peer to peer sharing, or "
+"other file-sharing services, posting on websites, or distribution of the "
+"Beat in the form, or a substantially similar form, as delivered to Licensee. "
+"Licensee may send the Beat file to any individual musician, engineer, studio "
+"manager or other people who are working on the New Song.</p>\n"
+"<p>THE LICENSEE IS EXPRESSLY PROHIBITED FROM REGISTERING THE BEAT AND/OR NEW "
+"SONG WITH ANY CONTENT IDENTIFICATION SYSTEM, SERVICE PROVIDER, MUSIC "
+"DISTRIBUTOR, RECORD LABEL OR DIGITAL AGGREGATOR (for example TuneCore or "
+"CDBaby, and any other provider of user-generated content identification "
+"services). The purpose of this restriction is to prevent you from receiving "
+"a copyright infringement takedown notice from a third party who also "
+"received a non-exclusive license to use the Beat in a New Song. The Beat has "
+"already been tagged for Content Identification (as that term is used in the "
+"music industry) by Producer as a pre-emptive measure to protect all "
+"interested parties in the New Song. If you do not adhere to this policy, you "
+"are in violation of the terms of this License and your license to use the "
+"Beat and/or New Song may be revoked without notice or compensation to you.</"
+"p>\n"
+"<p>As applicable to both the underlying composition in the Beat and to the "
+"master recording of the Beat: (i) The parties acknowledge and agree that the "
+"New Song is a “derivative work”, as that term is used in the United States "
+"Copyright Act; (ii) As applicable to the Beat and/or the New Song, there is "
+"no intention by the parties to create a joint work; and (iii) There is no "
+"intention by the Licensor to grant any rights in and/or to any other "
+"derivative works that may have been created by other third-party licensees.</"
+"p>\n"
+"\n"
+"<h3>Ownership:</h3>\n"
+"<p>The Producer is and shall remain the sole owner and holder of all rights, "
+"title, and interest in the Beat, including all copyrights to and in the "
+"sound recording and the underlying musical compositions written and composed "
+"by Producer. Nothing contained herein shall constitute an assignment by "
+"Producer to Licensee of any of the foregoing rights. Licensee may not, under "
+"any circumstances, register or attempt to register the New Song and/or the "
+"Beat with the U.S. Copyright Office. The aforementioned right to register "
+"the New Song and/or the Beat shall be strictly limited to Producer. Licensee "
+"will, upon request, execute, acknowledge and deliver to Producer such "
+"additional documents as Producer may deem necessary to evidence and "
+"effectuate Producer’s rights hereunder, and Licensee hereby grants to "
+"Producer the right as attorney-in-fact to execute, acknowledge, deliver and "
+"record in the U.S. Copyright Office or elsewhere any and all such documents "
+"if Licensee shall fail to execute same within five (5) days after so "
+"requested by Producer.</p>\n"
+"<p>For the avoidance of doubt, you do not own the master or the sound "
+"recording rights in the New Song. You have been licensed the right to use "
+"the Beat in the New Song and to commercially exploit the New Song based on "
+"the terms and conditions of this Agreement.</p>\n"
+"<p>Notwithstanding the above, you do own the lyrics or other original "
+"musical components of the New Song that were written or composed solely by "
+"you.</p>\n"
+"<p>With respect to the publishing rights and ownership of the underlying "
+"composition embodied in the New Song, the Licensee, and the Producer hereby "
+"acknowledge and agree that the underlying composition shall be owned/split "
+"between them as follows:</p>\n"
+"<p>Producer shall own, control, and administer Fifty Percent (50%) of the so-"
+"called “Publisher’s Share” of the underlying composition.</p>\n"
+"<p>In the event that Licensee wishes to register his/her interests and "
+"rights to the underlying composition of the New Song with their Performing "
+"Rights Organization (“PRO”), Licensee must simultaneously identify and "
+"register the Producer’s share and ownership interest in the composition to "
+"indicate that Producer wrote and owns 50% of the composition in the New Song "
+"and as the owner of 50% of the Publisher’s share of the New Song.</p>\n"
+"<p>The licensee shall be deemed to have signed, affirmed and ratified its "
+"acceptance of the terms of this Agreement by virtue of its payment of the "
+"License Fee to Licensor and its electronic acceptance of its terms and "
+"conditions at the time Licensee made payment of the License Fee.</p>\n"
+"<p>Mechanical License: If any selection or musical composition, or any "
+"portion thereof, recorded in the New Song hereunder is written or composed "
+"by Producer, in whole or in part, alone or in collaboration with others, or "
+"is owned or controlled, in whole or in part, directly or indirectly, by "
+"Producer or any person, firm, or corporation in which Producer has a direct "
+"or indirect interest, then such selection and/or musical composition shall "
+"be hereinafter referred to as a “Controlled Composition”.</p>\n"
+"<p>Producer hereby agrees to issue or cause to be issued, as applicable, to "
+"Licensee, mechanical licenses in respect of each Controlled Composition, "
+"which are embodied on the New Song. For that license, on the United States "
+"and Canada sales, Licensee will pay mechanical royalties at one hundred "
+"percent (100%) of the minimum statutory rate, subject to no cap of that rate "
+"for albums and/or EPs. For license outside the United States and Canada, the "
+"mechanical royalty rate will be the rate prevailing on an industry-wide "
+"basis in the country concerned on the date that this agreement has been "
+"entered into.</p>\n"
+"\n"
+"<h3>Credit:</h3>\n"
+"<p>Licensee shall have the right to use and permit others to use Producer’s "
+"approved name, approved likeness, and other approved identification and "
+"approved biographical material concerning the Producer solely for purposes "
+"of trade and otherwise without restriction solely in connection with the New "
+"Song recorded hereunder.</p>\n"
+"<p>Licensee shall use best efforts to have Producer credited as a “producer” "
+"and shall give Producer appropriate production and songwriting credit on all "
+"compact discs, record, music video, and digital labels or any other record "
+"configuration manufactured which is now known or created in the future that "
+"embodies the New Song created hereunder and on all cover liner notes, any "
+"records containing the New Song and on the front and/or back cover of any "
+"album listing the New Song and other musician credits. The licensee shall "
+"use its best efforts to ensure that Producer is properly credited and "
+"Licensee shall check all proofs for the accuracy of credits, and shall use "
+"its best efforts to cure any mistakes regarding Producers credit. In the "
+"event of any failure by Licensee to issue the credit to Producer, Licensee "
+"must use reasonable efforts to correct any such failure immediately and on a "
+"prospective basis. Such credit shall be in the substantial form: “Produced "
+"by <strong>{PRODUCER_ALIAS}</strong>”.</p>\n"
+"<p>Licensor Option: Licensor shall have the option, at Licensors sole "
+"discretion, to terminate this License at any time within three (3) years of "
+"the date of this Agreement upon written notice to Licensee. In the event "
+"that Licensor exercises this option, Licensor shall pay to Licensee a sum "
+"equal to Two Hundred Percent (200%) of the License Fee paid by Licensee. "
+"Upon Licensor’s exercise of the option, Licensee must immediately remove the "
+"New Song from any and all digital and physical distribution channels and "
+"must immediately cease access to any streams and/or downloads of the New "
+"Song by the general public.</p>\n"
+"\n"
+"<h3>Breach by Licensee:</h3>\n"
+"<p>The licensee shall have five (5) business days from its receipt of "
+"written notice by Producer and/or Producer’s authorized representative to "
+"cure any alleged breach of this Agreement by Licensee. Licensee’s failure to "
+"cure the alleged breach within five (5) business days shall result in "
+"Licensee’s default of its obligations, its breach of this Agreement, and at "
+"Producer’s sole discretion, the termination of Licensee’s rights hereunder.</"
+"p>\n"
+"<p>If Licensee engages in the commercial exploitation and/or sale of the "
+"Beat or New Song outside of the manner and amount expressly provided for in "
+"this Agreement, Licensee shall be liable to Producer for monetary damages in "
+"an amount equal to any and all monies paid, collected by, or received by "
+"Licensee, or any third party on its behalf, in connection with such "
+"unauthorized commercial exploitation of the Beat and/or New Song.</p>\n"
+"<p>Licensee recognizes and agrees that a breach or threatened breach of this "
+"Agreement by Licensee give rise to irreparable injury to Producer, which may "
+"not be adequately compensated by damages. Accordingly, in the event of a "
+"breach or threatened breach by the Licensee of the provisions of this "
+"Agreement, Producer may seek and shall be entitled to a temporary "
+"restraining order and a preliminary injunction restraining the Licensee from "
+"violating the provisions of this Agreement. Nothing herein shall prohibit "
+"Producer from pursuing any other available legal or equitable remedy from "
+"such breach or threatened breach, including but not limited to the recovery "
+"of damages from the Licensee. The Licensee shall be responsible for all "
+"costs, expenses or damages that Producer incurs as a result of any violation "
+"by the Licensee of any provision of this Agreement. Licensee’ obligation "
+"shall include court costs, litigation expenses, and reasonable attorneys’ "
+"fees.</p>\n"
+"\n"
+"<h3>Warranties, Representations, and Indemnification:</h3>\n"
+"<p>Licensee hereby agrees that Licensor has not made any guarantees or "
+"promises that the Beat fits the particular creative use or musical purpose "
+"intended or desired by the Licensee. The Beat, its sound recording, and the "
+"underlying musical composition embodied therein are licensed to the Licensee "
+"“as is” without warranties of any kind or fitness for a particular purpose.</"
+"p>\n"
+"<p>Producer warrants and represents that he has the full right and ability "
+"to enter into this agreement, and is not under any disability, restriction, "
+"or prohibition with respect to the grant of rights hereunder. Producer "
+"warrants that the manufacture, sale, distribution, or other exploitation of "
+"the New Song hereunder will not infringe upon or violate any common law or "
+"statutory right of any person, firm, or corporation; including, without "
+"limitation, contractual rights, copyrights, and right(s) of privacy and "
+"publicity and will not constitute libel and/or slander.</p>\n"
+"<p>Licensee warrants that the manufacture, sale, distribution, or other "
+"exploitation of the New Song hereunder will not infringe upon or violate any "
+"common law or statutory right of any person, firm, or corporation; "
+"including, without limitation, contractual rights, copyrights, and right(s) "
+"of privacy and publicity and will not constitute libel and/or slander. The "
+"foregoing notwithstanding, Producer undertakes no responsibility whatsoever "
+"as to any elements added to the New Song by Licensee, and Licensee "
+"indemnifies and holds Producer harmless for any such elements. Producer "
+"warrants that he did not “sample” (as that term is commonly understood in "
+"the recording industry) any copyrighted material or sound recordings "
+"belonging to any other person, firm, or corporation (hereinafter referred to "
+"as “Owner”) without first having notified Licensee.</p>\n"
+"<p>The licensee shall have no obligation to approve the use of any sample "
+"thereof; however, if approved, any payment in connection therewith, "
+"including any associated legal clearance costs, shall be borne by Licensee. "
+"Knowledge by Licensee that “samples” were used by Producer which was not "
+"affirmatively disclosed by Producer to Licensee shall shift, in whole or in "
+"part, the liability for infringement or violation of the rights of any third "
+"party arising from the use of any such “sample” from Producer to Licensee.</"
+"p>\n"
+"<p>Parties hereto shall indemnify and hold each other harmless from any and "
+"all third party claims, liabilities, costs, losses, damages or expenses as "
+"are actually incurred by the non-defaulting party and shall hold the non-"
+"defaulting party, free, safe, and harmless against and from any and all "
+"claims, suits, demands, costs, liabilities, loss, damages, judgments, "
+"recoveries, costs, and expenses; (including, without limitation, reasonable "
+"attorneys’ fees), which may be made or brought, paid, or incurred by reason "
+"of any breach or claim of breach of the warranties and representations "
+"hereunder by the defaulting party, their agents, heirs, successors, assigns "
+"and employees, which have been reduced to final judgment;</p>\n"
+"<p>provided that prior to final judgment, arising out of any breach of any "
+"representations or warranties of the defaulting party contained in this "
+"agreement or any failure by defaulting party to perform any obligations on "
+"its part to be performed hereunder the non-defaulting party has given the "
+"defaulting party prompt written notice of all claims and the right to "
+"participate in the defense with counsel of its choice at its sole expense. "
+"In no event shall Artist be entitled to seek injunctive or any other "
+"equitable relief for any breach or non-compliance with any provision of this "
+"agreement.</p>\n"
+"\n"
+"<h3>Miscellaneous:</h3>\n"
+"<p>This Agreement constitutes the entire understanding of the parties and is "
+"intended as a final expression of their agreement and cannot be altered, "
+"modified, amended or waived, in whole or in part, except by written "
+"instrument (email being sufficient) signed by both parties hereto. This "
+"agreement supersedes all prior agreements between the parties, whether oral "
+"or written. Should any provision of this agreement be held to be void, "
+"invalid or inoperative, such decision shall not affect any other provision "
+"hereof, and the remainder of this agreement shall be effective as though "
+"such void, invalid or inoperative provision had not been contained herein.</"
+"p>\n"
+"<p>No failure by Licensor hereto to perform any of its obligations hereunder "
+"shall be deemed a material breach of this agreement until the Licensee gives "
+"Licensor written notice of its failure to perform, and such failure has not "
+"been corrected within thirty (30) days from and after the service of such "
+"notice, or, if such breach is not reasonably capable of being cured within "
+"such thirty (30) day period, Licensor does not commence to cure such breach "
+"within said time period, and proceed with reasonable diligence to complete "
+"the curing of such breach thereafter. This agreement shall be governed by "
+"and interpreted in accordance with the laws of the "
+"<strong>{STATE_PROVINCE_COUNTRY}</strong> applicable to agreements entered "
+"into and wholly performed in said State, without regard to any conflict of "
+"laws principles.</p>\n"
+"<p>You hereby agree that the exclusive jurisdiction and venue for any "
+"action, suit or proceeding based upon any matter, claim or controversy "
+"arising hereunder or relating hereto shall be in the state or federal courts "
+"located in the <strong>{STATE_PROVINCE_COUNTRY}</strong>. You shall not be "
+"entitled to any monies in connection with the Master(s) other than as "
+"specifically set forth herein.</p>\n"
+"<p>All notices pursuant to this agreement shall be in writing and shall be "
+"given by registered or certified mail, return receipt requested (prepaid) at "
+"the respective addresses hereinabove set forth or such other address or "
+"addresses as may be designated by either party. Such notices shall be deemed "
+"given when received. A copy of all such notices sent to Producer shall be "
+"concurrently sent to [[lawfirm_name_address]]. Any notice mailed will be "
+"deemed to have been received five (5) business days after it is mailed; any "
+"notice dispatched by expedited delivery service will be deemed to be "
+"received two (2) business days after it is dispatched.</p>\n"
+"<p>YOU ACKNOWLEDGE AND AGREE THAT YOU HAVE READ THIS AGREEMENT AND HAVE BEEN "
+"ADVISED BY US OF THE SIGNIFICANT IMPORTANCE OF RETAINING AN INDEPENDENT "
+"ATTORNEY OF YOUR CHOICE TO REVIEW THIS AGREEMENT ON YOUR BEHALF. YOU "
+"ACKNOWLEDGE AND AGREE THAT YOU HAVE HAD THE UNRESTRICTED OPPORTUNITY TO BE "
+"REPRESENTED BY AN INDEPENDENT ATTORNEY. IN THE EVENT OF YOUR FAILURE TO "
+"OBTAIN AN INDEPENDENT ATTORNEY OR WAIVER THEREOF, YOU HEREBY WARRANT AND "
+"REPRESENT THAT YOU WILL NOT ATTEMPT TO USE SUCH FAILURE AND/OR WAIVER as a "
+"basis to avoid any obligations under this agreement, or to invalidate this "
+"agreement or To render this agreement or any part thereof unenforceable.</"
+"p>\n"
+"<p>This agreement may be executed in counterparts, each of which shall be "
+"deemed an original, and said counterparts shall constitute one and the same "
+"instrument. In addition, a signed copy of this agreement transmitted by "
+"facsimile or scanned into an image file and transmitted via email shall, for "
+"all purposes, be treated as if it was delivered containing an original "
+"manual signature of the party whose signature appears thereon and shall be "
+"binding upon such party as though an originally signed document had been "
+"delivered. Notwithstanding the foregoing, in the event that you do not sign "
+"this Agreement, your acknowledgment that you have reviewed the terms and "
+"conditions of this Agreement and your payment of the License Fee shall serve "
+"as your signature and acceptance of the terms and conditions of this "
+"Agreement.</p>\n"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3542
+msgid "Use the variables below to build your contract"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3548
+msgid "{LICENSE_NAME}"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3550
+msgid "Name of this license"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3555
+msgid "{CONTRACT_DATE}"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3557
+msgid "Date of the contract"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3562
+msgid "{CUSTOMER_FULLNAME}"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3564
+msgid "Customer fullname"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3569
+msgid "{CUSTOMER_EMAIL}"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3571
+msgid "Customer email address"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3576
+msgid "{CUSTOMER_ADDRESS}"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3578
+msgid "Customer address"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3584
+msgid "{PRODUCER_ALIAS}"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3591
+msgid "{PRODUCT_TITLE}"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3593
+msgid "Title of the purchased product"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3605
+msgid "{PERFORMANCES_FOR_PROFIT}"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3607
+msgid "Allowed for profit live performance ?"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3612
+msgid "{NUMBER_OF_RADIO_STATIONS}"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3614
+msgid "Number of radio stations allowed"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3619
+msgid "{DISTRIBUTE_COPIES}"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3621
+msgid "Number of distribution copies allowed"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3626
+msgid "{AUDIO_STREAMS}"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3628
+msgid "Number of audio streams allowed"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3633
+msgid "{MONETIZED_VIDEO_STREAMS_ALLOWED}"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3635
+msgid "Number of monitized music videos streams allowed"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3640
+msgid "{NONMONETIZED_VIDEO_STREAMS_ALLOWED}"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3642
+msgid "Number of non-monitized music videos streams allowed"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3647
+msgid "{MONETIZED_MUSIC_VIDEOS}"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3649
+msgid "Number of monitized music videos allowed"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3654
+msgid "{FREE_DOWNLOADS}"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3656
+msgid "Number of free downloads allowed"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3661
+msgid "{STATE_PROVINCE_COUNTRY}"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3663
+msgid "States/Provinces and Country of the seller"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3753
+msgctxt "Taxonomy : all_items"
+msgid "All Show"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3754
+msgctxt "Taxonomy : singular_name"
+msgid "Podcast Show"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3755
+msgctxt "Taxonomy : add_new_item"
+msgid "Add New Show"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3756
+msgctxt "Taxonomy : not_found"
+msgid "No show founds."
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3783
+#, php-format
+msgid "%1$s (MP3 Audio Player Pro) "
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3784
+msgid "Playlist"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3785
+msgid "MP3 Player"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3790
+msgid "New Playlist"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3791
+msgid "View playlist"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3792
+msgid "Search Playlists"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3793
+msgid "No playlists found."
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3794
+msgid "No playlists found in the Trash."
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3796
+msgid "Set Playlist Cover"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3832
+msgctxt "Taxonomy : all_items"
+msgid "All Categories"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3833
+msgctxt "Taxonomy : singular_name"
+msgid "Category"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3834
+msgctxt "Taxonomy : add_new_item"
+msgid "Add New Category"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3835
+msgctxt "Taxonomy : not_found"
+msgid "No categories found."
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3872
+msgid "New"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3873
+msgid "View"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3874
+msgid "Search"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3959
+#: admin/class-sonaar-music-admin.php:3960
+msgid "MP3 Player Shortcode Generator"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3968
+#: admin/library/Shortcode_Button/lib/class-shortcode-button.php:54
+msgid "Cancel"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3969
+#: admin/library/Shortcode_Button/lib/class-shortcode-button.php:55
+msgid "Insert Shortcode"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3975
+msgid "Choose Playlist Type:"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3980
+msgid "Predefined Playlists"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3981
+msgid "Audio URL inputs (advanced)"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3986
+msgid "Choose Playlist(s)"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:3990
+#, php-format
+msgid ""
+"Enter a comma separated list of post IDs. Enter <i>latest</i> to always load "
+"the latest published %1$s post. Click the magnifying glass to search for "
+"content"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:4002
+#: includes/widgets/sr-music-player.php:281
+msgid "Playlist Title"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:4032
+msgid "Track MP3 URLs"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:4034
+#, php-format
+msgid ""
+"eg: https://yourdomain.com/01.mp3 || https://yourdomain.com/02.mp3 . URL "
+"must be separated by || . See %1$sthis article%2$s for supported streaming "
+"providers."
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:4042
+msgid "Track Titles"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:4044
+msgid "eg: trackname 01 || trackname 02. Titles must be separated by ||"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:4052
+msgid "Track Image URLs"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:4054
+msgid ""
+"eg: https://yourdomain.com/img01.jpg || https://yourdomain.com/img02.jpg . "
+"URL must be separated by ||"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:4062
+msgid "Player Layout:"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:4080
+msgid "Show Skip 15/30 seconds button:"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:4085
+#: admin/class-sonaar-music-admin.php:4101
+#: admin/class-sonaar-music-admin.php:4117
+#: admin/class-sonaar-music-admin.php:4133
+#: admin/class-sonaar-music-admin.php:4149
+#: admin/class-sonaar-music-admin.php:4165
+#: admin/class-sonaar-music-admin.php:4181
+#: admin/class-sonaar-music-admin.php:4199
+msgid "default"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:4096
+#: includes/widgets/sr-music-player.php:2374
+#: includes/widgets/sr-music-player.php:2390
+msgid "Show Shuffle button"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:4128
+msgid "Show Volume button"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:4144
+#: includes/widgets/sr-music-player.php:3216
+msgid "Show Publish Date"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:4160
+msgid "Show Number of Player Tracks"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:4176
+msgid "Show Meta Duration"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:4194
+msgid "Remove Progress Bar"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:4210
+#: includes/widgets/sr-music-player.php:692
+msgid "Show Controls over Image Cover"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:4220
+msgid "Hide Cover Image"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:4231
+#: includes/widgets/sr-music-player.php:582
+#: includes/widgets/sr-music-player.php:596
+msgid "Show Tracklist"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:4242
+msgid "Show Track Store"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:4253
+msgid "Show Album Store"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:4264
+msgid "Remove Player"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:4290
+msgid "Show Thumbnail for Each Track"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:4300
+msgid "Enable Scrollbar on Tracklist"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:4311
+#: includes/widgets/sr-music-player.php:559
+msgid "Enable Shuffle"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:4379
+msgid "Published"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:4400
+#, php-format
+msgid "Edit &#8220;%s&#8221;"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:4421
+#: admin/library/cmb2/includes/CMB2_JS.php:177
+#: admin/library/cmb2/includes/CMB2_JS.php:222
+msgid "Clear"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:4422
+msgid "Clear color"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:4423
+#: admin/library/cmb2/includes/CMB2_JS.php:178
+#: includes/class-sonaar-music-block.php:1169
+#: includes/class-sonaar-music-block.php:1206
+msgid "Default"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:4424
+msgid "Select default color"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:4425
+#: admin/library/cmb2/includes/CMB2_JS.php:179
+msgid "Select Color"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:4426
+msgid "Color value"
+msgstr ""
+
+#: admin/class-sonaar-music-review.php:88
+#, php-format
+msgid ""
+"Hey %s, I've noticed you've created %d playlists with the MP3 Player - "
+"That's awesome!"
+msgstr ""
+
+#: admin/class-sonaar-music-review.php:90
+msgid ""
+"Could you please do me a BIG favor in return and give it a 5-star rating "
+"★★★★★ on WordPress ? That would make my day!"
+msgstr ""
+
+#: admin/class-sonaar-music-review.php:94
+msgid "★ Ok, you deserve it"
+msgstr ""
+
+#: admin/class-sonaar-music-review.php:95
+msgid "I already did"
+msgstr ""
+
+#: admin/class-sonaar-music-review.php:96
+msgid "Nope, not good enough"
+msgstr ""
+
+#: admin/library/Shortcode_Button/lib/class-shortcode-button-mce.php:102
+msgid "No items found."
+msgstr ""
+
+#: admin/library/Shortcode_Button/lib/class-shortcode-button.php:56
+msgid "Update Shortcode"
+msgstr ""
+
+#: admin/library/Shortcode_Button/lib/class-shortcode-button.php:57
+msgid "Shortcode Contents"
+msgstr ""
+
+#: admin/library/Shortcode_Button/lib/class-shortcode-button.php:344
+msgid "failed verification"
+msgstr ""
+
+#: admin/library/Shortcode_Button/templates/modal.php:7
+#: admin/library/Shortcode_Button/templates/modal.php:10
+msgid "Close"
+msgstr ""
+
+#: admin/library/cmb2-conditionals/example-functions.php:183
+#: admin/library/cmb2/example-functions.php:407
+msgid "Test Multi Checkbox"
+msgstr ""
+
+#: admin/library/cmb2-conditionals/example-functions.php:184
+#: admin/library/cmb2/example-functions.php:149
+#: admin/library/cmb2/example-functions.php:162
+#: admin/library/cmb2/example-functions.php:175
+#: admin/library/cmb2/example-functions.php:182
+#: admin/library/cmb2/example-functions.php:195
+#: admin/library/cmb2/example-functions.php:203
+#: admin/library/cmb2/example-functions.php:212
+#: admin/library/cmb2/example-functions.php:220
+#: admin/library/cmb2/example-functions.php:235
+#: admin/library/cmb2/example-functions.php:243
+#: admin/library/cmb2/example-functions.php:251
+#: admin/library/cmb2/example-functions.php:268
+#: admin/library/cmb2/example-functions.php:277
+#: admin/library/cmb2/example-functions.php:293
+#: admin/library/cmb2/example-functions.php:300
+#: admin/library/cmb2/example-functions.php:307
+#: admin/library/cmb2/example-functions.php:332
+#: admin/library/cmb2/example-functions.php:345
+#: admin/library/cmb2/example-functions.php:358
+#: admin/library/cmb2/example-functions.php:370
+#: admin/library/cmb2/example-functions.php:384
+#: admin/library/cmb2/example-functions.php:392
+#: admin/library/cmb2/example-functions.php:401
+#: admin/library/cmb2/example-functions.php:408
+#: admin/library/cmb2/example-functions.php:422
+#: admin/library/cmb2/example-functions.php:493
+#: admin/library/cmb2/example-functions.php:583
+#: admin/library/cmb2/example-functions.php:591
+#: admin/library/cmb2/example-functions.php:598
+#: admin/library/cmb2/example-functions.php:605
+#: admin/library/cmb2/example-functions.php:612
+#: admin/library/cmb2/example-functions.php:619
+#: admin/library/cmb2/example-functions.php:626
+#: admin/library/cmb2/example-functions.php:652
+#: admin/library/cmb2/example-functions.php:660
+#: admin/library/cmb2/example-functions.php:667
+#: admin/library/cmb2/example-functions.php:717
+msgid "field description (optional)"
+msgstr ""
+
+#: admin/library/cmb2-conditionals/example-functions.php:188
+#: admin/library/cmb2/example-functions.php:413
+msgid "Check One"
+msgstr ""
+
+#: admin/library/cmb2-conditionals/example-functions.php:189
+#: admin/library/cmb2/example-functions.php:414
+msgid "Check Two"
+msgstr ""
+
+#: admin/library/cmb2-conditionals/example-functions.php:190
+#: admin/library/cmb2/example-functions.php:415
+msgid "Check Three"
+msgstr ""
+
+#: admin/library/cmb2-post-search-field/lib/init.php:47
+msgid "An error has occurred. Please reload the page and try again."
+msgstr ""
+
+#: admin/library/cmb2-post-search-field/lib/init.php:48
+msgid "Find Posts or Pages"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:115
+msgid "Test Metabox"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:148
+#: admin/library/cmb2/example-functions.php:492
+msgid "Test Text"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:161
+msgid "Test Text Small"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:174
+msgid "Test Text Medium"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:181
+msgid "Read-only Disabled Field"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:185
+msgid "Hey there, I'm a read-only field"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:194
+msgid "Custom Rendered Field"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:202
+msgid "Website URL"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:211
+msgid "Test Text Email"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:219
+msgid "Test Time"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:227
+#: admin/library/cmb2/example-functions.php:228
+msgid "Time zone"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:234
+msgid "Test Date Picker"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:242
+msgid "Test Date Picker (UNIX timestamp)"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:250
+msgid "Test Date/Time Picker Combo (UNIX timestamp)"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:267
+msgid "Test Money"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:276
+msgid "Test Color Picker"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:292
+msgid "Test Text Area"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:299
+msgid "Test Text Area Small"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:306
+msgid "Test Text Area for Code"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:324
+msgid "Test Title Weeeee"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:325
+msgid "This is a title description"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:331
+msgid "Test Select"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:337
+#: admin/library/cmb2/example-functions.php:350
+#: admin/library/cmb2/example-functions.php:362
+msgid "Option One"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:338
+#: admin/library/cmb2/example-functions.php:351
+#: admin/library/cmb2/example-functions.php:363
+msgid "Option Two"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:339
+#: admin/library/cmb2/example-functions.php:352
+#: admin/library/cmb2/example-functions.php:364
+msgid "Option Three"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:344
+msgid "Test Radio inline"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:357
+msgid "Test Radio"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:369
+msgid "Test Taxonomy Radio"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:383
+msgid "Test Taxonomy Select"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:391
+msgid "Test Taxonomy Multi Checkbox"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:400
+msgid "Test Checkbox"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:421
+msgid "Test wysiwyg"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:431
+msgid "Test Image"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:432
+msgid "Upload an image or enter a URL."
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:438
+msgid "Multiple Files"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:439
+msgid "Upload or add multiple images/attachments."
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:446
+msgid "oEmbed"
+msgstr ""
+
+#. translators: %s: link to codex.wordpress.org/Embeds
+#: admin/library/cmb2/example-functions.php:449
+#, php-format
+msgid ""
+"Enter a youtube, twitter, or instagram URL. Supports services listed at %s."
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:481
+msgid "About Page Metabox"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:511
+msgid "Repeating Field Group"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:519
+msgid "Generates reusable form entries"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:521
+msgid "Entry {#}"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:522
+msgid "Add Another Entry"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:523
+msgid "Remove Entry"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:537
+msgid "Entry Title"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:544
+msgid "Description"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:545
+msgid "Write a short description for this entry"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:551
+msgid "Entry Image"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:557
+msgid "Image Caption"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:575
+msgid "User Profile Metabox"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:582
+#: admin/library/cmb2/example-functions.php:651
+msgid "Extra Info"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:590
+msgid "Avatar"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:597
+msgid "Facebook URL"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:604
+msgid "Twitter URL"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:611
+msgid "Google+ URL"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:618
+msgid "Linkedin URL"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:625
+msgid "User Field"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:644
+msgid "Category Metabox"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:659
+msgid "Term Image"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:666
+msgid "Arbitrary Term Field"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:685
+msgid "Theme Options"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:716
+msgid "Site Background Color"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:753
+#, php-format
+msgid "%s &mdash; Updated!"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:785
+msgid "REST Test Box"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:794
+msgid "REST Test Text"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:795
+msgid "Will show in the REST API for this box and for pages."
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:801
+msgid "REST Editable Test Text"
+msgstr ""
+
+#: admin/library/cmb2/example-functions.php:802
+msgid "Will show in REST API \"editable\" contexts only (`POST` requests)."
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2.php:199
+msgid "Metabox configuration is required to have an ID parameter."
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2.php:618
+msgid "Click to toggle"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_Ajax.php:75
+msgid "Please Try Again"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_Ajax.php:181
+msgid "Remove Embed"
+msgstr ""
+
+#. translators: 1: results for. 2: link to codex.wordpress.org/Embeds
+#: admin/library/cmb2/includes/CMB2_Ajax.php:189
+#: admin/library/cmb2/includes/helper-functions.php:107
+#, php-format
+msgid "No oEmbed Results Found for %1$s. View more info at %2$s."
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_Base.php:423
+#, php-format
+msgid ""
+"The \"%1$s\" field parameter has been deprecated in favor of the \"%2$s\" "
+"parameter."
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_Base.php:427
+#, php-format
+msgid ""
+"Using the \"%1$s\" field parameter as a callback has been deprecated in "
+"favor of the \"%2$s\" parameter."
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_Base.php:457
+#, php-format
+msgid ""
+"%1$s was called with a parameter that is <strong>deprecated</strong> since "
+"version %2$s! %3$s"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_Base.php:459
+#, php-format
+msgid ""
+"%1$s was called with a parameter that is <strong>deprecated</strong> since "
+"version %2$s with no alternative available."
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_Base.php:492
+#: admin/library/cmb2/includes/CMB2_Hookup_Base.php:102
+#: admin/library/cmb2/includes/CMB2_Options.php:247
+#: admin/library/cmb2/includes/CMB2_Options_Hookup.php:369
+#: admin/library/cmb2/includes/types/CMB2_Type_Base.php:173
+#, php-format
+msgid "Invalid %1$s property: %2$s"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_Base.php:510
+#: admin/library/cmb2/includes/types/CMB2_Type_Base.php:157
+#, php-format
+msgid "Invalid %1$s method: %2$s"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_Field.php:1443
+msgid "Add Group"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_Field.php:1444
+msgid "Remove Group"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_Field.php:1476
+#: admin/library/cmb2/includes/CMB2_Field.php:1480
+#: includes/class-sonaar-music-block.php:1260
+msgid "None"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_Field.php:1594
+msgid "Sorry, this field does not have a cmb_id specified."
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_Field_Display.php:453
+#: admin/library/cmb2/includes/CMB2_JS.php:242
+#: admin/library/cmb2/includes/types/CMB2_Type_File_Base.php:90
+msgid "File:"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_Hookup.php:188
+msgid ""
+"Term Metadata is a WordPress 4.4+ feature. Please upgrade your WordPress "
+"install."
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_Hookup.php:192
+msgid "Term metaboxes configuration requires a \"taxonomies\" parameter."
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_Hookup.php:560
+#, php-format
+msgid "Toggle panel: %s"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_Hookup_Base.php:44
+#, php-format
+msgid "%1$s should be implemented by the extended class."
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_JS.php:180
+msgid "Current Color"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_JS.php:212
+msgctxt "Valid formatDate string for jquery-ui datepicker"
+msgid "mm/dd/yy"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_JS.php:213
+msgid "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_JS.php:214
+msgid "Su, Mo, Tu, We, Th, Fr, Sa"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_JS.php:215
+msgid "Sun, Mon, Tue, Wed, Thu, Fri, Sat"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_JS.php:216
+msgid ""
+"January, February, March, April, May, June, July, August, September, "
+"October, November, December"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_JS.php:217
+msgid "Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_JS.php:218
+msgid "Next"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_JS.php:219
+msgid "Prev"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_JS.php:220
+msgid "Today"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_JS.php:221
+#: admin/library/cmb2/includes/CMB2_JS.php:231
+msgid "Done"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_JS.php:225
+msgid "Choose Time"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_JS.php:226
+msgid "Time"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_JS.php:227
+msgid "Hour"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_JS.php:228
+msgid "Minute"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_JS.php:229
+msgid "Second"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_JS.php:230
+msgid "Now"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_JS.php:232
+msgctxt ""
+"Valid formatting string, as per http://trentrichardson.com/examples/"
+"timepicker/"
+msgid "hh:mm TT"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_JS.php:238
+msgid "Use this file"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_JS.php:239
+msgid "Use these files"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_JS.php:240
+#: admin/library/cmb2/includes/types/CMB2_Type_File_Base.php:75
+msgid "Remove Image"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_JS.php:241
+#: admin/library/cmb2/includes/CMB2_Types.php:408
+#: admin/library/cmb2/includes/types/CMB2_Type_File_Base.php:95
+msgid "Remove"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_JS.php:243
+#: admin/library/cmb2/includes/types/CMB2_Type_File_Base.php:93
+msgid "Download"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_JS.php:244
+msgid "Select / Deselect All"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_Options_Hookup.php:139
+msgid "Nothing to update."
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_Options_Hookup.php:143
+msgid "Settings updated."
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_Types.php:226
+msgid "Custom CMB2 field type classes must extend CMB2_Type_Base."
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_Types.php:344
+msgid "Add Row"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_Types.php:408
+msgid "Remove Row"
+msgstr ""
+
+#: admin/library/cmb2/includes/helper-functions.php:308
+msgid "Save"
+msgstr ""
+
+#: admin/library/cmb2/includes/rest-api/CMB2_REST_Controller.php:257
+msgid "This box does not have read permissions."
+msgstr ""
+
+#: admin/library/cmb2/includes/rest-api/CMB2_REST_Controller.php:277
+msgid "This box does not have write permissions."
+msgstr ""
+
+#: admin/library/cmb2/includes/rest-api/CMB2_REST_Controller.php:300
+msgid ""
+"No box found by that id. A box needs to be registered with the \"show_in_rest"
+"\" parameter configured."
+msgstr ""
+
+#: admin/library/cmb2/includes/rest-api/CMB2_REST_Controller.php:378
+msgid "A human-readable description of the object."
+msgstr ""
+
+#: admin/library/cmb2/includes/rest-api/CMB2_REST_Controller.php:385
+msgid "The id for the object."
+msgstr ""
+
+#: admin/library/cmb2/includes/rest-api/CMB2_REST_Controller.php:392
+msgid "The title for the object."
+msgstr ""
+
+#: admin/library/cmb2/includes/rest-api/CMB2_REST_Controller_Boxes.php:51
+msgid "Includes the registered fields for the box in the response."
+msgstr ""
+
+#: admin/library/cmb2/includes/rest-api/CMB2_REST_Controller_Boxes.php:72
+msgid ""
+"Includes the fully rendered attributes, 'form_open', 'form_close', as well "
+"as the enqueued 'js_dependencies' script handles, and 'css_dependencies' "
+"stylesheet handles."
+msgstr ""
+
+#: admin/library/cmb2/includes/rest-api/CMB2_REST_Controller_Boxes.php:122
+msgid "No boxes found."
+msgstr ""
+
+#: admin/library/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:27
+msgid ""
+"Includes the box object which the fields are registered to in the response."
+msgstr ""
+
+#: admin/library/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:30
+msgid ""
+"When the '_rendered' argument is passed, the renderable field attributes "
+"will be returned fully rendered. By default, the names of the callback "
+"handers for the renderable attributes will be returned."
+msgstr ""
+
+#: admin/library/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:33
+#: admin/library/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:36
+msgid ""
+"To view or modify the field's value, the 'object_id' and 'object_type' "
+"arguments are required."
+msgstr ""
+
+#: admin/library/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:236
+msgid ""
+"CMB2 Field value cannot be updated without the value parameter specified."
+msgstr ""
+
+#: admin/library/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:297
+msgid ""
+"CMB2 Field value cannot be modified without the object_id and object_type "
+"parameters specified."
+msgstr ""
+
+#: admin/library/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:312
+#: admin/library/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:341
+msgid "No field found by that id."
+msgstr ""
+
+#: admin/library/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:415
+#, php-format
+msgid "Value Error for %s"
+msgstr ""
+
+#. translators: %s: register_routes()
+#: admin/library/cmb2/includes/shim/WP_REST_Controller.php:25
+#, php-format
+msgid "Method '%s' must be overridden."
+msgstr ""
+
+#: admin/library/cmb2/includes/shim/WP_REST_Controller.php:35
+#: admin/library/cmb2/includes/shim/WP_REST_Controller.php:47
+#: admin/library/cmb2/includes/shim/WP_REST_Controller.php:59
+#: admin/library/cmb2/includes/shim/WP_REST_Controller.php:71
+#: admin/library/cmb2/includes/shim/WP_REST_Controller.php:83
+#: admin/library/cmb2/includes/shim/WP_REST_Controller.php:95
+#: admin/library/cmb2/includes/shim/WP_REST_Controller.php:107
+#: admin/library/cmb2/includes/shim/WP_REST_Controller.php:119
+#: admin/library/cmb2/includes/shim/WP_REST_Controller.php:131
+#: admin/library/cmb2/includes/shim/WP_REST_Controller.php:143
+#: admin/library/cmb2/includes/shim/WP_REST_Controller.php:155
+#: admin/library/cmb2/includes/shim/WP_REST_Controller.php:168
+#, php-format
+msgid "Method '%s' not implemented. Must be overridden in subclass."
+msgstr ""
+
+#: admin/library/cmb2/includes/shim/WP_REST_Controller.php:273
+msgid "Current page of the collection."
+msgstr ""
+
+#: admin/library/cmb2/includes/shim/WP_REST_Controller.php:281
+msgid "Maximum number of items to be returned in result set."
+msgstr ""
+
+#: admin/library/cmb2/includes/shim/WP_REST_Controller.php:290
+msgid "Limit results to those matching a string."
+msgstr ""
+
+#: admin/library/cmb2/includes/shim/WP_REST_Controller.php:308
+msgid ""
+"Scope under which the request is made; determines fields present in response."
+msgstr ""
+
+#: admin/library/cmb2/includes/types/CMB2_Type_Counter_Base.php:50
+msgid "Words left"
+msgstr ""
+
+#: admin/library/cmb2/includes/types/CMB2_Type_Counter_Base.php:51
+msgid "Words"
+msgstr ""
+
+#: admin/library/cmb2/includes/types/CMB2_Type_Counter_Base.php:56
+msgid "Characters left"
+msgstr ""
+
+#: admin/library/cmb2/includes/types/CMB2_Type_Counter_Base.php:57
+msgid "Characters"
+msgstr ""
+
+#: admin/library/cmb2/includes/types/CMB2_Type_Counter_Base.php:62
+msgid "Your text may be truncated."
+msgstr ""
+
+#: admin/library/cmb2/includes/types/CMB2_Type_File.php:76
+msgid "Add or Upload File"
+msgstr ""
+
+#: admin/library/cmb2/includes/types/CMB2_Type_File_List.php:41
+msgid "Add or Upload Files"
+msgstr ""
+
+#: admin/library/cmb2/includes/types/CMB2_Type_Taxonomy_Base.php:115
+msgid "No terms"
+msgstr ""
+
+#: admin/partials/srmp3_options_importer.php:32
+msgid "Import/Export MP3 Player Settings"
+msgstr ""
+
+#: admin/partials/srmp3_options_importer.php:45
+msgid "Import Settings"
+msgstr ""
+
+#: admin/partials/srmp3_options_importer.php:59
+msgid "The import was successful."
+msgstr ""
+
+#: admin/partials/srmp3_options_importer.php:62
+msgid "An error happened."
+msgstr ""
+
+#: admin/partials/srmp3_options_importer.php:77
+msgid ""
+"Before you can upload your import file, you will need to fix the following "
+"error:"
+msgstr ""
+
+#: admin/partials/srmp3_options_importer.php:83
+msgid "Choose a compatible JSON file from your computer:"
+msgstr ""
+
+#: admin/partials/srmp3_options_importer.php:83
+#, php-format
+msgid "Maximum size: %s"
+msgstr ""
+
+#: admin/partials/srmp3_options_importer.php:89
+msgid "Upload file and import"
+msgstr ""
+
+#: admin/partials/srmp3_options_importer.php:138
+msgid "Choose which options tab you want to export:"
+msgstr ""
+
+#: admin/partials/srmp3_options_importer.php:155
+#: admin/partials/srmp3_options_importer.php:163
+msgid "Select All"
+msgstr ""
+
+#: admin/partials/srmp3_options_importer.php:188
+msgid "There are actually no options specified for backup. Create one."
+msgstr ""
+
+#: includes/class-sonaar-music-block.php:235
+#: includes/class-sonaar-music-block.php:350
+#: includes/class-sonaar-music-block.php:1621
+#: includes/class-sonaar-music-widget.php:1094
+msgid "Available now on:"
+msgstr ""
+
+#: includes/class-sonaar-music-block.php:576
+msgid "Add tracks in the widget settings.<br>"
+msgstr ""
+
+#: includes/class-sonaar-music-block.php:1160
+#: includes/class-sonaar-music-block.php:1181
+#: includes/class-sonaar-music-block.php:1231
+#: includes/widgets/sr-music-player.php:1637
+#: includes/widgets/sr-music-player.php:2640
+#: includes/widgets/sr-music-player.php:2669
+#: includes/widgets/sr-music-player.php:2822
+#: includes/widgets/sr-music-player.php:3966
+#: includes/widgets/sr-music-player.php:4004
+msgid "Right"
+msgstr ""
+
+#: includes/class-sonaar-music-block.php:1190
+msgid "floated"
+msgstr ""
+
+#: includes/class-sonaar-music-block.php:1194
+msgid "boxed"
+msgstr ""
+
+#: includes/class-sonaar-music-block.php:1197
+msgid "button"
+msgstr ""
+
+#: includes/class-sonaar-music-block.php:1240
+msgid "Black"
+msgstr ""
+
+#: includes/class-sonaar-music-block.php:1245
+msgid "White"
+msgstr ""
+
+#: includes/class-sonaar-music-block.php:1250
+msgid "Blue"
+msgstr ""
+
+#: includes/class-sonaar-music-block.php:1264
+msgid "Solid"
+msgstr ""
+
+#: includes/class-sonaar-music-block.php:1268
+msgid "Double"
+msgstr ""
+
+#: includes/class-sonaar-music-block.php:1272
+msgid "Dotted"
+msgstr ""
+
+#: includes/class-sonaar-music-block.php:1276
+msgid "Dashed"
+msgstr ""
+
+#: includes/class-sonaar-music-block.php:1280
+msgid "Groove"
+msgstr ""
+
+#: includes/class-sonaar-music-block.php:1797 includes/queries.php:71
+msgid "Create a Playlist First"
+msgstr ""
+
+#: includes/class-sonaar-music-block.php:1824 includes/queries.php:46
+msgid "Create a Category First"
+msgstr ""
+
+#: includes/class-sonaar-music-widget.php:28
+msgctxt "Widget"
+msgid "A simple radio that plays a list of songs from selected albums."
+msgstr ""
+
+#: includes/class-sonaar-music-widget.php:50
+msgctxt "Widget"
+msgid "Sonaar: Music Player"
+msgstr ""
+
+#: includes/class-sonaar-music-widget.php:98
+msgid "No Playlist Post found "
+msgstr ""
+
+#: includes/class-sonaar-music-widget.php:160
+msgid "Oops! No post found."
+msgstr ""
+
+#: includes/class-sonaar-music-widget.php:213
+msgid "No playlist selected"
+msgstr ""
+
+#: includes/class-sonaar-music-widget.php:404
+msgctxt "Widget"
+msgid "Loading tracks..."
+msgstr ""
+
+#: includes/class-sonaar-music-widget.php:406
+msgctxt "Widget"
+msgid "No tracks founds..."
+msgstr ""
+
+#: includes/class-sonaar-music-widget.php:1179
+msgctxt "Widget"
+msgid "Title:"
+msgstr ""
+
+#: includes/class-sonaar-music-widget.php:1181
+msgid "Popular Songs"
+msgstr ""
+
+#: includes/class-sonaar-music-widget.php:1185
+msgid "Album:"
+msgstr ""
+
+#: includes/class-sonaar-music-widget.php:1201
+msgid "Enable Sticky Audio Player"
+msgstr ""
+
+#: includes/class-sonaar-music-widget.php:1209
+msgid "Show Playlist"
+msgstr ""
+
+#: includes/class-sonaar-music-widget.php:1217
+msgid "Show Album store"
+msgstr ""
+
+#: includes/class-sonaar-music-widget.php:1224
+msgid "Hide Album Cover"
+msgstr ""
+
+#: includes/class-sonaar-music-widget.php:1231
+msgid "Show Track store"
+msgstr ""
+
+#: includes/class-sonaar-music-widget.php:1239
+msgid "Remove Visual Timeline"
+msgstr ""
+
+#: includes/class-sonaar-music-widget.php:1247
+#, php-format
+msgctxt "Widget"
+msgid "No albums have been created yet. <a href=\"%s\">Create some</a>."
+msgstr ""
+
+#: includes/class-sonaar-music-widget.php:1340
+msgid "Free"
+msgstr ""
+
+#: includes/class-sonaar-music-widget.php:1449
+msgid "Add to Cart"
+msgstr ""
+
+#: includes/class-sonaar-music-widget.php:1470
+msgid "Buy Now"
+msgstr ""
+
+#: includes/class-sonaar-podcast-rss-import.php:58
+msgid "Import Podcast RSS"
+msgstr ""
+
+#: includes/class-sonaar-podcast-rss-import.php:69
+msgid ""
+"Paste the URL link of your current Podcast RSS feed provided by your Podcast "
+"distributor.<br><br>Before importing your RSS feed, make sure you have a "
+"valid RSS Feed. You can validate it here: <a href=\"https://"
+"castfeedvalidator.com/\" target=\"_blank\">https://castfeedvalidator.com/</a>"
+msgstr ""
+
+#: includes/class-sonaar-podcast-rss-import.php:73
+msgid "RSS Link URL"
+msgstr ""
+
+#: includes/class-sonaar-podcast-rss-import.php:73
+msgid "URL link to external RSS feed."
+msgstr ""
+
+#: includes/class-sonaar-podcast-rss-import.php:74
+msgid "Podcast Show"
+msgstr ""
+
+#: includes/class-sonaar-podcast-rss-import.php:80
+msgid "Create New Podcast Show..."
+msgstr ""
+
+#: includes/class-sonaar-podcast-rss-import.php:90
+msgid "Select a Podcast Show or create a new one to import your episodes."
+msgstr ""
+
+#: includes/class-sonaar-podcast-rss-import.php:91
+msgid "Images"
+msgstr ""
+
+#: includes/class-sonaar-podcast-rss-import.php:91
+msgid "Download and import each podcast image"
+msgstr ""
+
+#: includes/class-sonaar-podcast-rss-import.php:91
+msgid ""
+"This will set your episode featured image (make sure you don't have "
+"limitations like memory_limit, max_execution_time, post_max_size or "
+"upload_max_filesize from your web hosting)"
+msgstr ""
+
+#: includes/class-sonaar-podcast-rss-import.php:92
+msgid "Podcast Settings"
+msgstr ""
+
+#: includes/class-sonaar-podcast-rss-import.php:92
+msgid "Import podcast settings as well"
+msgstr ""
+
+#: includes/class-sonaar-podcast-rss-import.php:92
+msgid ""
+"This will import the general podcast show settings like title, author, "
+"description, cover, categories, language, etc."
+msgstr ""
+
+#: includes/class-sonaar-podcast-rss-import.php:94
+msgid "Import RSS"
+msgstr ""
+
+#: includes/class-sonaar-podcast-rss-import.php:104
+msgid "URL link is empty."
+msgstr ""
+
+#: includes/class-sonaar-podcast-rss-import.php:137
+msgid "Fetching the external feed and parsing it..."
+msgstr ""
+
+#: includes/class-sonaar-podcast-rss-import.php:151
+#, php-format
+msgid "Error occurred importing the feed: %1$s."
+msgstr ""
+
+#: includes/class-sonaar-podcast-rss-import.php:181
+msgid "Import podcast settings..."
+msgstr ""
+
+#: includes/class-sonaar-podcast-rss-import.php:248
+#: includes/class-sonaar-podcast-rss-import.php:593
+#, php-format
+msgid "There was an error downloading %1$s: %2$s..."
+msgstr ""
+
+#: includes/class-sonaar-podcast-rss-import.php:255
+#: includes/class-sonaar-podcast-rss-import.php:602
+#, php-format
+msgid "There was an error uploading %1$s: %2$s..."
+msgstr ""
+
+#: includes/class-sonaar-podcast-rss-import.php:391
+#, php-format
+msgid "Checking %s RSS item..."
+msgid_plural "Checking %s RSS items..."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-sonaar-podcast-rss-import.php:422
+#, php-format
+msgid "No enclosure tag found in %1$s..."
+msgstr ""
+
+#: includes/class-sonaar-podcast-rss-import.php:515
+#, php-format
+msgid "Adding the %1$s podcast..."
+msgstr ""
+
+#: includes/class-sonaar-podcast-rss-import.php:520
+#, php-format
+msgid "Error occured while inserting the %1$s podcast: %2$s..."
+msgstr ""
+
+#: includes/class-sonaar-podcast-rss-import.php:532
+#, php-format
+msgid "Updating the %1$s podcast audio URL..."
+msgstr ""
+
+#: includes/class-sonaar-podcast-rss-import.php:537
+#, php-format
+msgid "Error occured while updating the %1$s podcast: %2$s..."
+msgstr ""
+
+#: includes/class-sonaar-podcast-rss-import.php:613
+#: includes/class-sonaar-podcast-rss-import.php:617
+#: includes/class-sonaar-podcast-rss-import.php:620
+#, php-format
+msgid "%s podcast"
+msgid_plural "%s podcasts"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-sonaar-podcast-rss-import.php:613
+msgid "added"
+msgstr ""
+
+#: includes/class-sonaar-podcast-rss-import.php:617
+msgid "updated"
+msgstr ""
+
+#: includes/class-sonaar-podcast-rss-import.php:620
+msgid "skipped"
+msgstr ""
+
+#: includes/class-sonaar-podcast-rss-import.php:623
+msgid "no podcasts were found"
+msgstr ""
+
+#: includes/class-sonaar-podcast-rss-import.php:626
+#, php-format
+msgid "Import finished: %s."
+msgstr ""
+
+#: includes/class-sonaar-podcast-rss-import.php:627
+msgid "Browse Episodes"
+msgstr ""
+
+#: includes/class-sonaar-podcast-rss-import.php:635
+msgid "Podcast RSS Feed"
+msgstr ""
+
+#: includes/class-sonaar-podcast-rss-import.php:635
+msgid "Import podcast episodes and settings from an RSS feed."
+msgstr ""
+
+#: includes/plugin.php:64
+msgid "Sonaar Widgets"
+msgstr ""
+
+#: includes/queries.php:17
+msgid "Create an Artist First"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:30
+msgid "MP3 Audio Player"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:50
+msgid "Use global setting (Yes)"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:52
+msgid "Use global setting (No)"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:68
+msgid "Audio Player Settings"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:75
+msgid "Image Cover (Optional)"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:112
+#: includes/widgets/sr-music-player.php:301
+msgid "Source"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:127
+#, php-format
+msgid "Select %1$s Post(s)"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:129
+#, php-format
+msgid ""
+"To create new %1$s %2$s Leave blank if you want to display your latest "
+"published %1$s"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:129
+msgid "<a href=\""
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:149
+msgid "All Posts"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:172
+msgid "Audio Source Metakey ID"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:173
+msgid ""
+"Leave blank to fetch your current post tracklist. For dynamic custom fields, "
+"enter your custom meta field key or ID."
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:195
+msgid "Repeater Group Metakey ID"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:196
+msgid ""
+"Leave blank if you are not using dynamic repeater or enter metakey ID for "
+"your Repeater Group"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:218
+msgid "From specific category(s)"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:238
+msgid "Display category description"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:259
+msgid "Max number of posts to load"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:260
+msgid "Leave blank for all posts"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:305
+msgid "Media File"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:306
+#: includes/widgets/sr-music-player.php:314
+msgid "External URL"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:322
+msgid "Enter your URL"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:329
+msgid "Upload MP3 File"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:340
+#: includes/widgets/sr-music-player.php:2734
+#, php-format
+msgid "%1$s Title"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:352
+#, php-format
+msgid "%1$s Cover (Optional)"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:357
+#, php-format
+msgid ""
+"Setting a %1$s cover image will override the main cover image. Recommended: "
+"JPG file 500x500px"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:365
+#, php-format
+msgid "Add %1$s(s)"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:453
+msgid "Link Title"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:471
+msgid "External Link Buttons"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:533
+msgid "Player Design Layout"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:539
+msgid "Button"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:548
+#: includes/widgets/sr-music-player.php:887
+msgid "Sticky Audio Player"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:570
+#, php-format
+msgid "Stop when  %1$s ends"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:584
+#: includes/widgets/sr-music-player.php:598
+#: includes/widgets/sr-music-player.php:629
+#: includes/widgets/sr-music-player.php:643
+#: includes/widgets/sr-music-player.php:659
+#: includes/widgets/sr-music-player.php:744
+msgid "Show"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:585
+#: includes/widgets/sr-music-player.php:599
+#: includes/widgets/sr-music-player.php:630
+#: includes/widgets/sr-music-player.php:644
+#: includes/widgets/sr-music-player.php:658
+#: includes/widgets/sr-music-player.php:743
+msgid "Hide"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:611
+msgid "Reverse Tracklist"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:627
+#: includes/widgets/sr-music-player.php:641
+msgid "External Links"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:656
+msgid "Hide Image Cover"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:741
+msgid "Hide Mini Player / Soundwave"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:756
+msgid "Play text"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:803
+msgid "Pause text"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:853
+msgid "Play its own Post ID track"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:854
+msgid ""
+"Check this case if this player is intended to be displayed on its own single "
+"post"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:891
+msgid ""
+"This option allows you to display a sticky footer player bar on this page"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:912
+msgid "Display Playlist Duration"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:925
+msgid "Display Publish Date"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:937
+#, php-format
+msgid "Display Total Numbers of %1$ss"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:961
+msgid "Display Speed Rate button"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:974
+msgid "Display Shuffle/Random button"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:1002
+msgid "Meet the MP3 Audio Player PRO"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:1005
+msgid ""
+"Our PRO version lets you use Elementor's & Gutenberg Editor to customize the "
+"look and feel of the player in real-time! Over 70+ options available!"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:1022
+msgid "All those features are available with the MP3 Player's Pro Version."
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:1041
+msgid "Image Cover"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:1088
+#: includes/widgets/sr-music-player.php:1111
+msgid "Image Width"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:1136
+msgid "Image Padding"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:1150
+msgid "Image Radius"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:1165
+msgid "Center the Image vertically with the Tracklist"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:1184
+msgid "Audio Player Controls over Image"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:1201
+msgid "Control Size Scale"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:1233
+msgid "Image Overlay On Hover"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:1257
+msgid "Mini Player & Soundwave"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:1289
+#: includes/widgets/sr-music-player.php:1507
+#, php-format
+msgid "Hide %1$s Title"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:1323
+#: includes/widgets/sr-music-player.php:1522
+#, php-format
+msgid "HTML %1$s Title Tag"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:1373
+#: includes/widgets/sr-music-player.php:1546
+#: includes/widgets/sr-music-player.php:2927
+#, php-format
+msgid "%1$s Title Typography"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:1411
+#: includes/widgets/sr-music-player.php:1558
+#: includes/widgets/sr-music-player.php:2942
+#, php-format
+msgid "%1$s Title Color"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:1463
+#: includes/widgets/sr-music-player.php:2874
+msgid "Hide Subtitle"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:1480
+#: includes/widgets/sr-music-player.php:2890
+msgid "Subtitle Typography"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:1492
+#: includes/widgets/sr-music-player.php:2903
+msgid "Subtitle Color"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:1575
+msgid "Description/About Typography"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:1587
+msgid "Description/About  Color"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:1613
+msgid "Hide SoundWave"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:1625
+msgid "Alignment"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:1654
+msgid "Show SoundWave"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:1666
+msgid "SoundWave Progress Bar Color"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:1715
+msgid "SoundWave Background Color"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:1765
+msgid "Progress Bar Height"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:1818
+msgid "Progress Bar Radius"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:1839
+msgid "Inline Progress Bar"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:1852
+msgid "Hide Time Durations"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:1898
+msgid "Time Typography"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:1951
+msgid "Time Color"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:2017
+#: includes/widgets/sr-music-player.php:2936
+#: includes/widgets/sr-music-player.php:4029
+msgid "Normal"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:2023
+#: includes/widgets/sr-music-player.php:2060
+msgid "Audio Player Controls Color"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:2039
+#: includes/widgets/sr-music-player.php:2076
+msgid "Play/Pause Text Color "
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:2054
+#: includes/widgets/sr-music-player.php:3014
+#: includes/widgets/sr-music-player.php:4065
+msgid "Hover"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:2090
+msgid "Border Color "
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:2105
+msgid "Hover Animation"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:2142
+msgid "Show Text instead of Play Icon"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:2158
+msgid "Show Play Label"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:2171
+msgid "Play Icon"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:2185
+msgid "Play Label Typography"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:2228
+msgid "Play Label Padding"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:2274
+msgid "Play Button Radius"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:2324
+msgid "Add Space Before Player Control"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:2344
+#: includes/widgets/sr-music-player.php:2361
+msgid "Show Skip 15/30 Seconds button"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:2403
+#: includes/widgets/sr-music-player.php:2419
+msgid "Show Playback Speed button"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:2432
+#: includes/widgets/sr-music-player.php:2448
+msgid "Show Volume Control"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:2461
+#: includes/widgets/sr-music-player.php:3609
+#: includes/widgets/sr-music-player.php:3885
+msgid "Background"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:2474
+msgid "Vertical Alignment with the Image Cover"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:2478
+msgid "Top"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:2486
+msgid "Bottom"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:2555
+msgid "Move Tracklist Below Artwork"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:2580
+#, php-format
+msgid "%1$s Image"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:2588
+#, php-format
+msgid "Show Thumbnail for Each %1$s"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:2597
+msgid "Thumbnail Width"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:2617
+msgid "Tracklist Alignments"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:2628
+msgid "Tracklist Alignment"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:2657
+msgid "Image Alignment"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:2713
+msgid "Tracklist Width"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:2745
+msgid "HTML Title Tag"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:2767
+msgid "Hide Title"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:2783
+msgid "Title Typography"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:2795
+msgid "Title Color"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:2810
+msgid "Title Alignment"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:2841
+msgid "Title Indent"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:2863
+#, php-format
+msgid "%1$s Subtitle"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:2953
+#, php-format
+msgid "Link title to the %1$s page"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:2956
+msgid "Use global setting"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:3020
+#, php-format
+msgid "%1$s Title Hover Color"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:3033
+msgid "Active"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:3039
+#, php-format
+msgid "%1$s Title Active Color"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:3053
+#, php-format
+msgid "%1$s Separator Color"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:3065
+msgid "Tracklist Item Background"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:3080
+#, php-format
+msgid "%1$s Spacing"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:3097
+msgid "Tracklist Item Padding"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:3111
+msgid "Hide Play/Pause Button"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:3125
+msgid "Play/Pause Button Color"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:3139
+msgid "Play/Pause Button Size"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:3160
+#, php-format
+msgid "Hide %1$s Number"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:3175
+#, php-format
+msgid "Hide %1$s Duration"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:3191
+msgid "Duration Typography"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:3202
+msgid "Duration Color"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:3234
+msgid "Publish Date Typography"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:3245
+msgid "Publish Date Color"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:3258
+#, php-format
+msgid "Hide %1$s Description"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:3272
+msgid "Description Typography"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:3283
+msgid "Description Color"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:3297
+msgid "Description Lenght"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:3311
+msgid "Strip HTML"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:3343
+#, php-format
+msgid "Hide %1$s's Call-to-Action(s)"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:3364
+msgid "Display Icons without Popover"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:3393
+msgid "Popover Icon Color"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:3424
+msgid "Show Text label"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:3439
+msgid "Button Label Typography"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:3462
+msgid "Icons Color When No Label Present"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:3488
+msgid "Label Button Color"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:3514
+msgid "Label Button Background Color"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:3540
+msgid "Button Spacing"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:3570
+msgid "Icon Button Size (when no label is present)"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:3600
+msgid "Tracklist Container"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:3618
+msgid "Container Margin"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:3632
+msgid "Container Padding"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:3646
+msgid "Tracklist Margin"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:3660
+msgid "Scrollbar"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:3668
+msgid "Enable Scrollbar"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:3680
+msgid "Scrollbar Height"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:3714
+msgid "Metadata"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:3765
+msgid "Color"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:3776
+msgid "Show Date in the Mini-Player"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:3792
+#, php-format
+msgid "Show Total Number of %1$ss"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:3805
+msgid "Show Total Playlist Time Duration"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:3872
+msgid "Move Links below soundwave"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:3893
+msgid "Heading Style"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:3901
+msgid "Hide Heading"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:3913
+msgid "Heading text"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:3929
+msgid "Heading Typography"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:3940
+msgid "Heading Color"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:3954
+msgid "Heading Alignment"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:3984
+msgid "Button Style"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:3992
+msgid "Links Alignment"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:4018
+msgid "Button Typography"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:4036
+#: includes/widgets/sr-music-player.php:4072
+msgid "Text Color"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:4092
+msgid "Button Border Color"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:4118
+msgid "Button Radius"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:4140
+msgid "Button Padding"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:4152
+msgid "Buttons Space"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:4174
+msgid "Hide Icon"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:4186
+msgid "Icon Font Size"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:4204
+msgid "Icon Spacing"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:4230
+msgid "Link Buttons Margin"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:4469
+#: includes/widgets/sr-music-player.php:4518
+msgid "Add tracks in the widget settings."
+msgstr ""
+
+#: includes/widgets/srpro-buttonplayer.php:28
+msgid "Launch the Sticky Audio Player"
+msgstr ""
+
+#: includes/widgets/srpro-buttonplayer.php:35
+msgid "Launch Sticky Audio Player"
+msgstr ""
+
+#: includes/widgets/srpro-buttonplayer.php:38
+msgid ""
+"Important: Make sure the button link parameter is blank in the section above "
+"(eg: remove the hashtag #)"
+msgstr ""
+
+#: includes/widgets/srpro-buttonplayer.php:47
+msgid "Play Most Recent Playlist"
+msgstr ""
+
+#: includes/widgets/srpro-buttonplayer.php:59
+msgid "Select Playlist(s)"
+msgstr ""
+
+#: includes/widgets/srpro-buttonplayer.php:70
+msgid "Play its own Post Tracklist"
+msgstr ""
+
+#: includes/widgets/srpro-buttonplayer.php:71
+msgid ""
+"Check this case if you want to launch the sticky player with the tracks "
+"found in this post"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "MP3 Audio Player by Sonaar"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"https://sonaar.io/mp3-audio-player-pro/?utm_source=Sonaar+Music+Free"
+"+Plugin&utm_medium=plugin"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "The most popular and complete Music & Podcast Player for WordPress."
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid ""
+"https://sonaar.io/?utm_source=Sonaar%20Music%20Free"
+"%20Plugin&utm_medium=plugin"
+msgstr ""

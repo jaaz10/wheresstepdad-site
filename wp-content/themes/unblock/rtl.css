@@ -1,0 +1,344 @@
+/**
+* Theme Name: UnBlock
+* Description: Adds support for languages written in a Right To Left (RTL) direction.
+* See: https://codex.wordpress.org/Right_to_Left_Language_Support
+* @package unBlock
+* @since 1.0.0
+*/
+
+body {
+  direction: rtl;
+  unicode-bidi: embed;
+}
+
+.skip-link:focus {
+  left: auto;
+  right: 5px;
+}
+
+
+/* ELEMENTS
+==================================================== */
+
+ul,
+ol {
+  margin: 0 1.25rem 1.813rem 0;
+  padding-left: 0;
+  padding-right: 1.25rem;
+}
+
+li>ul,
+li>ol {
+  padding-right: 0;
+}
+
+dd {
+  margin: 0 1rem 1rem 0;
+}
+
+
+blockquote::before {
+  left: 0;
+  right: -1.5rem;
+}
+
+/* HEADER
+==================================================== */
+.custom-logo-link {
+  margin-right: 0;
+  margin-left: 0.75rem;
+}
+
+#site-title {
+  margin: 0 0 0 auto;
+}
+
+#header1Style {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+/* NAVIGATION
+==================================================== */
+#header1 .navbar-toggler {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+/* For the main menu */
+@media screen and (max-width: 991px) {
+
+  #mainmenu a>span {
+    padding-left: 0;
+    padding-right: 0.938rem;
+  }
+
+  #mainmenu a>span::before {
+    left: 0;
+    right: 0;
+  }
+
+  #mainmenu ul a {
+    padding-left: 0;
+    padding-right: 1rem;
+  }
+
+  #mainmenu ul ul a {
+    padding-left: 0;
+    padding-right: 2rem;
+  }
+
+  #mainmenu ul ul ul a {
+    padding-left: 0;
+    padding-right: 3rem;
+  }
+
+}
+
+/* MULTI-PAGE NAVIGATION
+   ==================================================== */
+.multi-page-links a,
+.multi-page-links .post-page-numbers {
+  margin-right: 0;
+  margin-left: 0.188rem;
+}
+
+/* BACK TO TOP
+==================================================== */
+#back-to-top {
+  right: auto;
+  left: 0;
+}
+
+/* CONTENT
+   ==================================================== */
+.entry-title::after,
+.archive #archive-title::before {
+  left: auto;
+  right: 0;
+}
+
+
+.post-thumbnail-caption {
+  right: 0;
+  left: 1rem;
+}
+
+.blog-list .post-thumbnail {
+  margin-right: auto;
+  margin-left: 0;
+}
+
+.single-center .post-thumbnail-caption {
+  right: 0;
+  left: auto;
+}
+
+
+/* COMMENTS
+===================================================== */
+
+.author-avatar {
+  margin-right: 0;
+  margin-left: 1.5rem;
+}
+
+
+.comment-list .children {
+  margin-left: 0;
+  margin-right: 5rem;
+}
+
+.comment-list .bypostauthor .fn:after {
+  margin-left: 0;
+  margin-right: 5px;
+}
+
+.comment-edit-link {
+  margin-left: 0;
+  margin-right: 0.25rem;
+}
+
+.comment-avatar {
+  float: right;
+  margin-right: 0;
+  margin-left: 1.5rem;
+}
+
+.comment-content {
+  margin-left: 0;
+  margin-right: 6rem;
+}
+
+.children .comment-content {
+  margin-left: 0;
+  margin-right: 4.75rem;
+}
+
+.comment-reply {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.avatars-disabled .comment-content {
+  margin-right: 0;
+}
+
+.comment-list .children {
+  margin: 3rem 5.375rem 3rem 0;
+}
+
+#cancel-comment-reply-link {
+  margin-left: 0;
+  margin-right: 5px;
+}
+
+.required-field-message {
+  margin-left: 0;
+  margin-right: 1rem;
+}
+
+/* FOOTER
+==================================================== */
+#footer-site-title {
+  margin: 0 auto 0 0;
+}
+
+/* WIDGETS
+==================================================== */
+.widget_categories .children a,
+.widget_nav_menu .sub-menu a {
+  padding-left: 0;
+  padding-right: 0.5rem;
+}
+
+.widget_categories .children li ul a,
+.widget_nav_menu .sub-menu li ul a {
+  padding-left: 0;
+  padding-right: 1rem;
+}
+
+.widget_categories .children a:before,
+.widget_nav_menu .sub-menu a:before {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+/* TAG CLOUD */
+.widget_tag_cloud a {
+  margin-right: 0;
+  margin-left: 2px;
+}
+
+.wp-calendar-nav-prev a,
+.wp-calendar-nav-next a {
+  margin-right: 0;
+  margin-left: 2px;
+}
+
+/* CAPTIONS */
+.widget_media_image figcaption,
+#banner-sidebar figcaption {
+  right: 0;
+  left: 1rem;
+  text-align: left;
+}
+
+/* Contact form 7 */
+#contact-form .contact-name-field .wpcf7-form-control-wrap::before,
+#contact-form .contact-email-field .wpcf7-form-control-wrap::before,
+#contact-form .contact-subject-field .wpcf7-form-control-wrap::before,
+#contact-form .contact-message-field .wpcf7-form-control-wrap::before {
+  left: 0;
+  right: 10px;
+}
+
+.wpcf7-spinner::before {
+  left: 0;
+  right: 0.25rem;
+}
+
+.contact-notice-field .wpcf7-list-item {
+  margin: 0 1rem 0 0;
+}
+
+.wpcf7-not-valid-tip {
+  padding-left: 0;
+  padding-right: 12px;
+}
+
+/* FORMS
+==================================================== */
+.search-form .search-submit {
+  right: 0;
+  left: 0.875rem;
+}
+
+#wp-comment-cookies-consent {
+  margin-right: 0;
+  margin-left: 0.375rem;
+}
+
+/* MEDIA QUERIES
+==================================================== */
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  #left-sidebar {
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: 3rem;
+  }
+
+  #right-sidebar {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: 3rem;
+  }
+
+  #footer1 #footer-site-title {
+    margin-right: 0;
+    margin-left: 1rem;
+  }
+
+  #footer1 #social-nav {
+    margin-left: 0;
+    margin-right: auto;
+  }
+
+  #social-nav li {
+    margin: 0 0.75rem 0 0;
+  }
+
+  #footer1 #copyright {
+    text-align: right;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+  /* Time to show the submenu to flyout on right*/
+  #mainmenu li:hover>ul,
+  #mainmenu li:focus>ul {
+    left: 0;
+    right: auto;
+  }
+
+  #mainmenu ul li:hover>ul,
+  #mainmenu ul li:focus>ul {
+    left: 0;
+    right: -99%;
+  }
+
+  #mainmenu ul {
+    left: 0;
+    text-align: left;
+  }
+
+  #banner-sidebar figcaption {
+    right: 0;
+    left: 4rem;
+  }
+
+  .blog-list .post-thumbnail {
+    margin: 0 0 0 0 2rem;
+  }
+}
